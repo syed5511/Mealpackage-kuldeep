@@ -7,4 +7,5 @@ export const Container = styled.div`
   box-shadow: 0px 70px 70px #bebebe29 !important;
   border-radius: 10px;
   border: 0px;
+  box-shadow: 0px 70px 70px #bebebe29 !important;
 `;
