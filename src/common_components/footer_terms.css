@@ -1,0 +1,21 @@
+.footer_terms{
+  height: 60px;
+  background-color: #191436;
+  color: white;
+  font: Regular 16px/20px Roboto;
+}
+.llc{
+  padding-top: 20px;
+}
+
+@media (max-width: 1140px) {
+  .footer_terms{
+    height: 90px;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer_terms{
+    height: 120px;
+  }
+}
