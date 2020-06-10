@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Mealpackage-kuldeep/static/css/main.e22ee85a.chunk.css",
+    "main.js": "/Mealpackage-kuldeep/static/js/main.04f6bd74.chunk.js",
+    "main.js.map": "/Mealpackage-kuldeep/static/js/main.04f6bd74.chunk.js.map",
+    "runtime-main.js": "/Mealpackage-kuldeep/static/js/runtime-main.87f2efbe.js",
+    "runtime-main.js.map": "/Mealpackage-kuldeep/static/js/runtime-main.87f2efbe.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Mealpackage-kuldeep/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.65daf2ff.chunk.js": "/Mealpackage-kuldeep/static/js/2.65daf2ff.chunk.js",
+    "static/js/2.65daf2ff.chunk.js.map": "/Mealpackage-kuldeep/static/js/2.65daf2ff.chunk.js.map",
+    "index.html": "/Mealpackage-kuldeep/index.html",
+    "precache-manifest.6df81c90d8f1e1d7df2a74181dfda31d.js": "/Mealpackage-kuldeep/precache-manifest.6df81c90d8f1e1d7df2a74181dfda31d.js",
+    "service-worker.js": "/Mealpackage-kuldeep/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/Mealpackage-kuldeep/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.e22ee85a.chunk.css.map": "/Mealpackage-kuldeep/static/css/main.e22ee85a.chunk.css.map",
+    "static/js/2.65daf2ff.chunk.js.LICENSE.txt": "/Mealpackage-kuldeep/static/js/2.65daf2ff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f2efbe.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.65daf2ff.chunk.js",
+    "static/css/main.e22ee85a.chunk.css",
+    "static/js/main.04f6bd74.chunk.js"
+  ]
+}
