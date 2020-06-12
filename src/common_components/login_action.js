@@ -42,7 +42,7 @@ LoginAction.propTypes = {
 };
 
 LoginAction.defaultProps = {
-  isLogin: true,
+  isLogin: false,
 };
 
 export default LoginAction;

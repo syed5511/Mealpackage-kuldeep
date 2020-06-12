@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  height: 94px;
+  height: 72px;
   background: #181436 0% 0% no-repeat padding-box;
-  box-shadow: 0px 10px 6px #11058029;
   padding: 0 142px;
   display: flex;
   align-items: center;
@@ -37,16 +36,19 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 12px;
+  font: bold 14px Roboto;
+  letter-spacing: 0px;
+`;
+
+export const Icon = styled.img`
+  max-height: 28px;
 `;
 
 export const Description = styled.div`
-  font: Regular 14px/20px Roboto;
-  letter-spacing: 0px;
   color: #ffffff;
 `;
 
 export const Place = styled.div`
-  font: Bold 15px/20px Roboto;
-  letter-spacing: 0px;
   color: #eeab5d;
+  margin-top: 2px;
 `;

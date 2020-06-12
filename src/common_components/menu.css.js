@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const UL = styled.ul`
-  font: Bold 18px/24px Roboto;
+  font: bold 14px Roboto;
   letter-spacing: 0px;
   list-style: none;
   display: flex;
@@ -14,8 +14,9 @@ export const LI = styled.li`
   cursor: pointer;
   margin: 0 8px;
   height: 100%;
+  border-bottom: 3px solid transparent;
   &.active {
-    border-bottom: 1px solid #4477ff;
+    border-bottom: 3px solid #eeab5d;
   }
 `;
 

@@ -11,18 +11,19 @@ import {
   Content,
   Description,
   Place,
+  Icon,
 } from "./header.css";
 
 const menuItems = [
   {
     key: "on_menu",
     title: "ON MENU",
-    url: "/on-menu",
+    url: "#",
   },
   {
     key: "pricing",
     title: "PRICING",
-    url: "/pricing",
+    url: "#",
   },
 ];
 
@@ -34,7 +35,7 @@ const Header = () => {
         <Middle>
           <Menu menuItems={menuItems} />
           <Location>
-            <Logo src="/static/images/pin.png" alt="" />
+            <Icon src="/static/images/pin.png" alt="" />
             <Content>
               <Description>We don't have delivery service to</Description>
               <Place>Skokie - 606060</Place>

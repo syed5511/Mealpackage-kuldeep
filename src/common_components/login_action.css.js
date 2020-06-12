@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const Link = styled.a`
-  font: bold 20px/26px Roboto;
+  font: bold 16px Roboto;
   letter-spacing: 0px;
   color: #fefefe;
   &.link {
@@ -18,6 +18,6 @@ export const Link = styled.a`
 `;
 
 export const Logo = styled.img`
-  max-height: 42px;
+  max-height: 22px;
   margin-right: 12px;
 `;
