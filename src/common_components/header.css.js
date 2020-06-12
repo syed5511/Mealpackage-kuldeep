@@ -23,4 +23,30 @@ export const Left = styled.div`
 export const Middle = styled.div`
   height: 100%;
   margin-left: 80px;
+  display: flex;
+`;
+
+export const Location = styled.div`
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-left: 80px;
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+`;
+
+export const Description = styled.div`
+  font: Regular 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+`;
+
+export const Place = styled.div`
+  font: Bold 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #eeab5d;
 `;

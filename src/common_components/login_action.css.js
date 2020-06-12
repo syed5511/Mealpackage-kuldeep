@@ -9,8 +9,15 @@ export const Link = styled.a`
   font: bold 20px/26px Roboto;
   letter-spacing: 0px;
   color: #fefefe;
-  &:hover {
-    color: #4477ff;
-    text-decoration: none;
+  &.link {
+    &:hover {
+      color: #4477ff;
+      text-decoration: none;
+    }
   }
+`;
+
+export const Logo = styled.img`
+  max-height: 42px;
+  margin-right: 12px;
 `;

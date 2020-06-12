@@ -2,7 +2,16 @@ import React from "react";
 
 import Menu from "./menu";
 import LoginAction from "./login_action";
-import { Container, Logo, Left, Middle } from "./header.css";
+import {
+  Container,
+  Logo,
+  Left,
+  Middle,
+  Location,
+  Content,
+  Description,
+  Place,
+} from "./header.css";
 
 const menuItems = [
   {
@@ -24,6 +33,13 @@ const Header = () => {
         <Logo src="/logo.png" alt="" />
         <Middle>
           <Menu menuItems={menuItems} />
+          <Location>
+            <Logo src="/static/images/pin.png" alt="" />
+            <Content>
+              <Description>We don't have delivery service to</Description>
+              <Place>Skokie - 606060</Place>
+            </Content>
+          </Location>
         </Middle>
       </Left>
       <LoginAction />
