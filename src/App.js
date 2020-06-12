@@ -8,6 +8,7 @@ import Signin from "./common_components/signin.js";
 import FollowUs from "./common_components/followus.js";
 import PricingPlan from "./common_components/pricing_plan.js";
 import ConfirmAndPay from "./common_components/confirm_and_pay.js";
+import Header from "./common_components/header";
 import Steppers from "./common_components/steppers.js";
 import Skeleton from "./common_components/skeleton";
 import Card from "./common_components/card";
@@ -19,6 +20,7 @@ function App() {
     <>
       {/* <Steppers /> */}
       {/* <ConfirmAndPay /> */}
+      <Header />
       <PricingPlan />
       <Card>
         <Skeleton

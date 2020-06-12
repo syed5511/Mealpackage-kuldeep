@@ -1,28 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
+import { arrayOf, shape } from "prop-types";
 
-import { Container } from "./menu.css";
+import { UL, LI, A } from "./menu.css";
+import { string } from "yup";
 
-const menuItems = [
-  {
-    title: "DEMO",
-    url: "/demo",
-    isActive: false,
-  },
-  {
-    title: "PRICING",
-    url: "/pricing",
-    isActive: true,
-  },
-];
-
-const Menu = () => {
+const Menu = ({ menuItems }) => {
+  const [active, setActive] = useState("on_menu");
   return (
-    <ul>
+    <UL>
       {menuItems.map((item) => (
-        <li key={item.title}>{item.title}</li>
+        <LI
+          key={item.title}
+          className={active === item.key ? "active" : ""}
+          onClick={() => {
+            setActive(item.key);
+          }}
+        >
+          <A href={item.url}>{item.title}</A>
+        </LI>
       ))}
-    </ul>
+    </UL>
   );
+};
+
+Menu.propTypes = {
+  menuItems: arrayOf(
+    shape({
+      key: string,
+      title: string,
+      url: string,
+    })
+  ),
+};
+
+Menu.defaultProps = {
+  menuItems: [],
 };
 
 export default Menu;
