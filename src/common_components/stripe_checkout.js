@@ -1,11 +1,19 @@
 import React, { useState } from "react";
-import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
-import Button from "./button";
+import { loadStripe } from "@stripe/stripe-js";
+import {
+  CardElement,
+  Elements,
+  useElements,
+  useStripe,
+} from "@stripe/react-stripe-js";
 
+import Button from "./button";
 import { Container, Label, Error, Note } from "./stripe_checkout.css";
 
+const stripePromise = loadStripe("pk_test_MKf79LKoGDTPoDyPKUGEOT7o00P9oxhiHW");
+
 const stripeTokenHandler = async (token) => {
-  const response = await fetch("/charge", {
+  const response = await fetch("/backend_endpoint", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -84,4 +92,10 @@ const CheckoutForm = () => {
   );
 };
 
-export default CheckoutForm;
+const StripeCheckout = () => (
+  <Elements stripe={stripePromise}>
+    <CheckoutForm />
+  </Elements>
+);
+
+export default StripeCheckout;
