@@ -10,10 +10,12 @@ import FollowUs from "./common_components/followus.js";
 import PricingPlan from "./common_components/pricing_plan.js";
 import ConfirmAndPay from "./common_components/confirm_and_pay.js";
 import Header from "./common_components/header";
-import Steppers from "./common_components/steppers.js";
-import Stepper from "./common_components/_stepper";
+import Stepper from "./common_components/stepper";
 import Skeleton from "./common_components/skeleton";
 import Card from "./common_components/card";
+import Alert from "./common_components/alert";
+import StripeCheckout from "./common_components/stripe_checkout";
+import Tnc from "./common_components/tnc";
 
 import "./App.css";
 
@@ -40,7 +42,6 @@ function App() {
   const [currentStep, setCurrentStep] = useState(1);
   return (
     <>
-      {/* <Steppers /> */}
       {/* <ConfirmAndPay /> */}
       <Header />
       <div className="cover">
@@ -52,6 +53,24 @@ function App() {
       </div>
       <div className="stepContent">Step Content {currentStep + 1}</div>
       <PricingPlan />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            width: 643,
+          }}
+        >
+          <Alert className="mid-space">
+            You will receive future plan at $59.94 with 3 meals
+          </Alert>
+          <StripeCheckout />
+          <Tnc />
+        </div>
+      </div>
       <Card>
         <Skeleton
           width="100%"

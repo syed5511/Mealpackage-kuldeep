@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { arrayOf, shape, string, number, func } from "prop-types";
 
-import { Container, Step, Count, Title, Line } from "./_stepper.css";
+import { Container, Step, Count, Title, Line } from "./stepper.css";
 
 const Stepper = ({ steps, currentStep, setCurrentStep }) => {
   const [completedStep, setCompletedStep] = useState(currentStep);
