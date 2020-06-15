@@ -8,6 +8,7 @@ export const UL = styled.ul`
   padding: 0;
   margin: 0;
   height: 100%;
+  margin-right: 80px;
 `;
 
 export const LI = styled.li`

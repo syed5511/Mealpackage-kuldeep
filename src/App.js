@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Button from "react-bootstrap/Button";
 import Footer from "./common_components/footer.js";
 import FooterTerms from "./common_components/footer_terms.js";
 import PackageButton from "./common_components/button.js";
@@ -36,7 +37,7 @@ const steps = [
 ];
 
 function App() {
-  const [currentStep, setCurrentStep] = useState(2);
+  const [currentStep, setCurrentStep] = useState(1);
   return (
     <>
       {/* <Steppers /> */}

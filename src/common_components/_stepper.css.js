@@ -7,7 +7,6 @@ export const Container = styled.div`
 export const Step = styled.div`
   display: flex;
   align-items: center;
-  cursor: no-drop;
 `;
 
 export const Count = styled.div`
@@ -20,6 +19,7 @@ export const Count = styled.div`
   border-radius: 50%;
   color: #181436;
   background: #d9e0f5 0% 0% no-repeat padding-box;
+  cursor: no-drop;
   &.stepCompleted {
     cursor: pointer;
   }
@@ -32,7 +32,8 @@ export const Count = styled.div`
 export const Title = styled.div`
   font: bold 13px Roboto;
   color: #d9e0f5;
-  margin: 0 12px;
+  padding: 0 12px;
+  cursor: no-drop;
   &.stepCompleted {
     cursor: pointer;
   }
@@ -45,8 +46,9 @@ export const Line = styled.div`
   margin-right: 12px;
   width: 48px;
   border-bottom: 2px solid #d9e0f5;
+  cursor: no-drop;
   &.stepCompleted {
-    cursor: normal;
+    cursor: auto;
   }
   &.completed {
     border-bottom: 2px solid #4477ff;

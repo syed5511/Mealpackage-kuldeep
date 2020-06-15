@@ -2,17 +2,9 @@ import React from "react";
 
 import Menu from "./menu";
 import LoginAction from "./login_action";
-import {
-  Container,
-  Logo,
-  Left,
-  Middle,
-  Location,
-  Content,
-  Description,
-  Place,
-  Icon,
-} from "./header.css";
+import LocationShow from "./location_show";
+import Popover from "./popover";
+import { Container, Logo, Left, Middle } from "./header.css";
 
 const menuItems = [
   {
@@ -34,16 +26,20 @@ const Header = () => {
         <Logo src="/logo.png" alt="" />
         <Middle>
           <Menu menuItems={menuItems} />
-          <Location>
-            <Icon src="/static/images/pin.png" alt="" />
-            <Content>
-              <Description>We don't have delivery service to</Description>
-              <Place>Skokie - 606060</Place>
-            </Content>
-          </Location>
+          <Popover
+            triggerNode={
+              <LocationShow
+                iconSrc="/static/images/pin.png"
+                description="We don't have delivery service to"
+                place="Skokie - 606060"
+              />
+            }
+          >
+            We dont deliver to your location.
+          </Popover>
         </Middle>
       </Left>
-      <LoginAction />
+      <Popover triggerNode={<LoginAction />}>login logout content</Popover>
     </Container>
   );
 };
