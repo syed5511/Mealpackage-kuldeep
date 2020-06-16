@@ -7,6 +7,12 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (min-width: 1024px) and (max-width: 1248px) {
+    padding: 0 48px;
+  }
+  @media (max-width: 1024px) {
+    padding: 0 16px;
+  }
 `;
 
 export const Logo = styled.img`
@@ -23,4 +29,10 @@ export const Middle = styled.div`
   height: 100%;
   margin-left: 80px;
   display: flex;
+`;
+
+export const Right = styled(Left)`
+  & > div {
+    height: 100%;
+  }
 `;

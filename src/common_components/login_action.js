@@ -1,6 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { bool } from "prop-types";
 
+import Popover from "./popover";
+import Settings from "./settings";
 import { Container, Link, Logo } from "./login_action.css";
 
 const LoginAction = ({ isLogin }) => {
@@ -23,9 +25,14 @@ const LoginAction = ({ isLogin }) => {
       text: "Hello Syed",
     };
   }
-  return (
+
+  const renderContent = () => (
     <Container>
-      <Logo src={content.img.src} alt={content.img.alt} />
+      <Logo
+        src={content.img.src}
+        alt={content.img.alt}
+        className={isLogin ? "loggedIn" : ""}
+      />
       {isLogin ? (
         <Link as="div">{content.text}</Link>
       ) : (
@@ -34,6 +41,14 @@ const LoginAction = ({ isLogin }) => {
         </Link>
       )}
     </Container>
+  );
+
+  return isLogin ? (
+    <Popover triggerNode={renderContent()}>
+      <Settings />
+    </Popover>
+  ) : (
+    renderContent()
   );
 };
 

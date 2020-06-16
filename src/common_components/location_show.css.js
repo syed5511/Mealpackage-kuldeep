@@ -4,6 +4,7 @@ export const Location = styled.div`
   display: flex;
   height: 100%;
   align-items: center;
+  cursor: pointer;
 `;
 
 export const Content = styled.div`

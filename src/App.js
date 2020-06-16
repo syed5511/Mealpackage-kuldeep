@@ -16,6 +16,8 @@ import Card from "./common_components/card";
 import Alert from "./common_components/alert";
 import StripeCheckout from "./common_components/stripe_checkout";
 import Tnc from "./common_components/tnc";
+import Thankyou from "./common_components/thankyou";
+import useIsMobile from "./utils/useIsMobile";
 
 import "./App.css";
 
@@ -40,6 +42,7 @@ const steps = [
 
 function App() {
   const [currentStep, setCurrentStep] = useState(1);
+  const isMobile = useIsMobile();
   return (
     <>
       {/* <ConfirmAndPay /> */}
@@ -70,6 +73,12 @@ function App() {
           <StripeCheckout />
           <Tnc />
         </div>
+      </div>
+      <div style={{ marginTop: 32 }}>
+        {isMobile ? "Mobile Device" : "Desktop Device"}
+      </div>
+      <div style={{ marginTop: 32 }}>
+        <Thankyou />
       </div>
       <Card>
         <Skeleton
