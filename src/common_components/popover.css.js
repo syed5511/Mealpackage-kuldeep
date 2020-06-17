@@ -19,7 +19,7 @@ export const Container = styled.div`
     background-color: #fff;
     background-clip: padding-box;
     position: absolute;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 20px 20px #0000001f;
     border-top: 1px solid #e9e3c8;
     border-radius: 3px;
     outline: 0;

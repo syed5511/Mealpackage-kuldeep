@@ -3,7 +3,7 @@ import { arrayOf, shape, string, number, func } from "prop-types";
 
 import { Container, Step, Count, Title, Line } from "./stepper.css";
 
-const Stepper = ({ steps, currentStep, setCurrentStep }) => {
+const Stepper = ({ steps, currentStep, setCurrentStep, isMobile }) => {
   const [completedStep, setCompletedStep] = useState(currentStep);
 
   useEffect(() => {
@@ -23,15 +23,19 @@ const Stepper = ({ steps, currentStep, setCurrentStep }) => {
       {steps.map((item, i) => {
         const stepClassName = i <= completedStep ? "stepCompleted" : "";
         const className = i <= currentStep ? "completed" : "";
-        const selectableClass = `${stepClassName} ${className}`;
+        const mobileClass = isMobile ? "mobile" : "";
+        const selectableClass = `${stepClassName} ${className} ${mobileClass}`;
+
         return (
           <Step key={item.key}>
             <Count className={selectableClass} onClick={() => onStepClick(i)}>
               {i + 1}
             </Count>
-            <Title className={selectableClass} onClick={() => onStepClick(i)}>
-              {item.title}
-            </Title>
+            {(!isMobile || (isMobile && i === currentStep)) && (
+              <Title className={selectableClass} onClick={() => onStepClick(i)}>
+                {item.title}
+              </Title>
+            )}
             {i !== steps.length - 1 && <Line className={selectableClass} />}
           </Step>
         );
