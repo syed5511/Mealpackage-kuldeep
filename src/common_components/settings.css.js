@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  @media (max-width: 1124px) {
+    padding: 16px;
+    border-top: 1px solid #e5e5e5;
+  }
+`;
 
 export const Top = styled.div``;
 
@@ -12,11 +17,14 @@ export const Links = styled.ul`
 
 export const Link = styled.li`
   cursor: pointer;
-  font-family: Roboto;
+  font-family: Roboto Regular;
   font-size: 15px;
   color: #555;
   &:hover {
     color: #101010;
+  }
+  @media (max-width: 1124px) {
+    font-size: 16px;
   }
 `;
 
@@ -28,6 +36,9 @@ export const Logout = styled.button`
   color: #9b9b9b;
   &:hover {
     color: #101010;
+  }
+  @media (max-width: 1124px) {
+    font-size: 16px;
   }
 `;
 
@@ -42,8 +53,11 @@ export const Bottom = styled.div`
   font-size: 14px;
   color: #9b9b9b;
   span {
-    font-weight: bold;
+    font-family: Roboto Bold;
     color: #101010;
     margin-left: 24px;
+  }
+  @media (max-width: 1124px) {
+    font-size: 16px;
   }
 `;

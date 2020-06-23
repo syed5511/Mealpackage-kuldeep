@@ -3,7 +3,7 @@ import { bool } from "prop-types";
 
 import Popover from "./popover";
 import Settings from "./settings";
-import { Container, Link, Logo } from "./login_action.css";
+import { Container, Link, Logo, Cover } from "./login_action.css";
 
 const LoginAction = ({ isLogin }) => {
   let content = {
@@ -43,12 +43,21 @@ const LoginAction = ({ isLogin }) => {
     </Container>
   );
 
-  return isLogin ? (
-    <Popover triggerNode={renderContent()}>
-      <Settings />
-    </Popover>
-  ) : (
-    renderContent()
+  return (
+    <>
+      <Cover>
+        {isLogin ? (
+          <Popover triggerNode={renderContent()}>
+            <Settings />
+          </Popover>
+        ) : (
+          renderContent()
+        )}
+      </Cover>
+      <Cover className="small">
+        {isLogin ? <Settings /> : renderContent()}
+      </Cover>
+    </>
   );
 };
 

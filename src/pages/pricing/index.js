@@ -17,7 +17,7 @@ const PricingPage = () => {
   const className = isMobile ? "mobile" : "";
   return (
     <Container>
-      <Header isMobile={isMobile} menuItems={menuItems} />
+      <Header isMobile={isMobile} menuItems={menuItems} isLogin={true} />
       <StepperCover className={className}>
         <Stepper
           isMobile={isMobile}

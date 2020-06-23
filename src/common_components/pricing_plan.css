@@ -17,6 +17,8 @@ html {
 
 .card-deck .card {
   min-width: 220px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .background_blue {
   position: absolute;
@@ -63,21 +65,24 @@ html {
 
 .keep_it_healthy {
   text-align: center;
-  font: Bold 20px/20px Roboto;
-  letter-spacing: 0px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Roboto Regular;
   color: #eeab5d;
 }
 .simple_fair {
   text-align: center;
   font-size: 65px;
-  font-weight: bold;
-  letter-spacing: 0px;
+  margin-top: 16px;
+  font-family: Playfair DisplayBold;
   color: #ffffff;
 }
 .simple_healthy {
   text-align: center;
-  font: Bold 20px/20px Roboto;
-  letter-spacing: 0px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 48px;
+  font-family: Roboto Regular;
   color: #f5f0ea;
 }
 .simple_healthy span {
@@ -86,34 +91,44 @@ html {
 
 .one_person_h {
   text-align: center;
-  font: Bold 24px/32px Roboto !important;
-  letter-spacing: 0px;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Roboto Bold;
   color: #1b3071;
   padding: 36px 10px 10px 10px;
 }
 
 .two_person_h {
   text-align: center;
-  font: Bold 24px/32px Roboto !important;
-  letter-spacing: 0px;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Roboto Bold;
   color: #eeab5d;
   padding: 36px 10px 10px 10px;
 }
 
 .four_person_h {
   text-align: center;
-  font: Bold 24px/32px Roboto !important;
-  letter-spacing: 0px;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Roboto Bold;
   color: #1b3071;
   padding: 36px 10px 10px 10px;
 }
 
 .plan_card_content {
   text-align: center;
-  font: 18px/22px Roboto;
-  letter-spacing: 0px;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Roboto Light;
   color: #1b3071;
   padding: 5px 15px;
+}
+
+.qty-selector {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Roboto Bold;
 }
 
 .MuiToggleButton-root.Mui-selected:hover {
@@ -156,10 +171,12 @@ html {
 
 .meals {
   text-align: right;
-  font: Bold 20px/26px Roboto;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Roboto Bold;
   letter-spacing: 0px;
   color: #1b3071;
-  padding-left: 10px;
+  padding-left: 16px;
 }
 
 .card-body img {
@@ -190,28 +207,46 @@ html {
 }
 .amount_left {
   text-align: left;
-  font: Bold 20px/26px Roboto;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Roboto Bold;
   color: #1b3071;
 }
+.per-meal {
+  padding: 30px 10px;
+}
 .amount_left span {
-  font: 14px/19px Roboto;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Roboto Regular;
   color: #1b3071;
   text-align: left;
 }
 .amount_right {
   text-align: right;
-  font: Bold 20px/26px Roboto;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Roboto Bold;
   color: #1b3071;
 }
 .amount_subtext_left {
-  font: 14px/19px Roboto;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Roboto Regular;
   color: #1b3071;
   text-align: left;
 }
 .amount_subtext_right {
-  font: 14px/19px Roboto;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Roboto Regular;
   color: #1b3071;
   text-align: right;
+}
+.card-action {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Roboto Medium;
 }
 
 @media (max-width: 780px) {

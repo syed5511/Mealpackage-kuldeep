@@ -15,11 +15,12 @@ export const Count = styled.div`
   justify-content: center;
   align-items: center;
   height: 24px;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto Medium;
   border-radius: 50%;
   color: #4477ff;
-  background: #ffffff 0% 0% no-repeat;
+  background: #ffffff 0% 0%;
   cursor: no-drop;
   &.stepCompleted {
     cursor: pointer;
@@ -29,16 +30,18 @@ export const Count = styled.div`
     height: 20px;
   }
   &.completed {
-    background: #4477ff 0% 0% no-repeat;
+    background: #4477ff 0% 0%;
     color: #fff;
   }
 `;
 
 export const Title = styled.div`
-  font: bold 14px Roboto;
-  color: #d9e0f5;
+  color: #ffffff;
   padding: 0 12px;
   cursor: no-drop;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Roboto Bold;
   &.stepCompleted {
     cursor: pointer;
   }

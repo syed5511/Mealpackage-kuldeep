@@ -32,7 +32,8 @@ export default function PricingPlan({ isMobile }) {
           <h1 class="simple_fair">Simple, fair pricing.</h1>
           <p class="lead simple_healthy">
             Simple sample sample sample healthy healthy{" "}
-            <span>FREE DELIVERY</span> everyday
+            <span>FREE DELIVERY</span> everyday Simple sample sample sample
+            healthy healthy
           </p>
         </div>
         <div class="container">
@@ -54,19 +55,31 @@ export default function PricingPlan({ isMobile }) {
                   onChange={handleMeal1}
                   aria-label="text alignment"
                 >
-                  <ToggleButton value="2" aria-label="left aligned">
+                  <ToggleButton
+                    value="2"
+                    aria-label="left aligned"
+                    className="qty-selector"
+                  >
                     2
                   </ToggleButton>
-                  <ToggleButton value="3" aria-label="centered">
+                  <ToggleButton
+                    value="3"
+                    aria-label="centered"
+                    className="qty-selector"
+                  >
                     3
                   </ToggleButton>
-                  <ToggleButton value="4" aria-label="right aligned">
+                  <ToggleButton
+                    value="4"
+                    aria-label="right aligned"
+                    className="qty-selector"
+                  >
                     4
                   </ToggleButton>
                 </ToggleButtonGroup>
 
                 <span className="meals">Meals</span>
-                <div className="row p-30">
+                <div className="row per-meal">
                   <div className="col-6 border_up border_right">
                     <div className="amount_left">
                       $90.99 <span>Per Meal</span>
@@ -82,7 +95,7 @@ export default function PricingPlan({ isMobile }) {
 
                 <button
                   type="button"
-                  class="btn btn-lg btn-block btn-outline-primary"
+                  class="btn btn-lg btn-block btn-outline-primary card-action"
                 >
                   Two Person Plan
                 </button>
@@ -105,20 +118,32 @@ export default function PricingPlan({ isMobile }) {
                   onChange={handleMeal2}
                   aria-label="text alignment"
                 >
-                  <ToggleButton value="2" aria-label="left aligned">
+                  <ToggleButton
+                    value="2"
+                    aria-label="left aligned"
+                    className="qty-selector"
+                  >
                     2
                   </ToggleButton>
-                  <ToggleButton value="3" aria-label="centered">
+                  <ToggleButton
+                    value="3"
+                    aria-label="centered"
+                    className="qty-selector"
+                  >
                     3
                   </ToggleButton>
-                  <ToggleButton value="4" aria-label="right aligned">
+                  <ToggleButton
+                    value="4"
+                    aria-label="right aligned"
+                    className="qty-selector"
+                  >
                     4
                   </ToggleButton>
                 </ToggleButtonGroup>
 
                 <span className="meals">Meals</span>
 
-                <div className="row p-30">
+                <div className="row per-meal">
                   <div className="col-6 border_up border_right">
                     <div className="amount_left">
                       $90.99 <span>Per Meal</span>
@@ -132,7 +157,10 @@ export default function PricingPlan({ isMobile }) {
                   </div>
                 </div>
 
-                <button type="button" class="btn btn-lg btn-block btn-primary">
+                <button
+                  type="button"
+                  class="btn btn-lg btn-block btn-primary card-action"
+                >
                   Get started
                 </button>
               </div>
@@ -154,20 +182,32 @@ export default function PricingPlan({ isMobile }) {
                   onChange={handleMeal3}
                   aria-label="text alignment"
                 >
-                  <ToggleButton value="2" aria-label="left aligned">
+                  <ToggleButton
+                    value="2"
+                    aria-label="left aligned"
+                    className="qty-selector"
+                  >
                     2
                   </ToggleButton>
-                  <ToggleButton value="3" aria-label="centered">
+                  <ToggleButton
+                    value="3"
+                    aria-label="centered"
+                    className="qty-selector"
+                  >
                     3
                   </ToggleButton>
-                  <ToggleButton value="4" aria-label="right aligned">
+                  <ToggleButton
+                    value="4"
+                    aria-label="right aligned"
+                    className="qty-selector"
+                  >
                     4
                   </ToggleButton>
                 </ToggleButtonGroup>
 
                 <span className="meals">Meals</span>
 
-                <div className="row p-30">
+                <div className="row per-meal">
                   <div className="col-6 border_up border_right">
                     <div className="amount_left">
                       $90.99 <span>Per Meal</span>
@@ -181,7 +221,10 @@ export default function PricingPlan({ isMobile }) {
                   </div>
                 </div>
 
-                <button type="button" class="btn btn-lg btn-block btn-primary">
+                <button
+                  type="button"
+                  class="btn btn-lg btn-block btn-primary card-action"
+                >
                   Contact us
                 </button>
               </div>

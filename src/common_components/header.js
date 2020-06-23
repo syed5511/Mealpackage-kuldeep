@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Menu from "./menu";
 import LoginAction from "./login_action";
 import LocationShow from "./location_show";
 import Popover from "./popover";
-import { Container, Logo, Left, Middle, Right } from "./header.css";
+import {
+  Container,
+  Logo,
+  Left,
+  Middle,
+  Right,
+  Hamburg,
+  Line,
+  MobileNav,
+  LoggedInUser,
+  Close,
+} from "./header.css";
 
-const Header = ({ isMobile, menuItems }) => {
+const Header = ({ isMobile, menuItems, isLogin }) => {
+  const [show, setShow] = useState(false);
   const renderMenu = () => <Menu menuItems={menuItems} />;
-  const renderLogin = () => <LoginAction isLogin />;
+  const renderLogin = () => <LoginAction isLogin={isLogin} />;
   const renderLocation = () => (
     <>
       {renderMenu()}
@@ -25,13 +37,40 @@ const Header = ({ isMobile, menuItems }) => {
       </Popover>
     </>
   );
+  const renderMobileNav = () => (
+    <MobileNav className={show ? "show" : ""}>
+      <Close
+        src="/static/images/cross.png"
+        alt=""
+        onClick={() => {
+          setShow(false);
+        }}
+      />
+      {isLogin && <LoggedInUser>Hello Syed!</LoggedInUser>}
+      {renderMenu()}
+      {renderLogin()}
+    </MobileNav>
+  );
+  const renderHamburg = () => (
+    <Hamburg
+      onClick={() => {
+        setShow(true);
+      }}
+    >
+      {[1, 2, 3].map((item) => (
+        <Line key={item} />
+      ))}
+    </Hamburg>
+  );
   return (
     <Container>
       <Left>
         <Logo src="/logo.png" alt="" />
         {!isMobile && <Middle>{renderLocation()}</Middle>}
+        {renderHamburg()}
       </Left>
       <Right>{!isMobile ? renderLogin() : "---"}</Right>
+      {renderMobileNav()}
     </Container>
   );
 };
