@@ -82,7 +82,7 @@ export default function PricingPlan({ isMobile }) {
                 <div className="row per-meal">
                   <div className="col-6 border_up border_right">
                     <div className="amount_left">
-                      $90.99 <span>Per Meal</span>
+                      $90.99 <span>/ Meal</span>
                     </div>
 
                     <div className="amount_subtext_left">Free Delivery</div>
@@ -146,7 +146,7 @@ export default function PricingPlan({ isMobile }) {
                 <div className="row per-meal">
                   <div className="col-6 border_up border_right">
                     <div className="amount_left">
-                      $90.99 <span>Per Meal</span>
+                      $90.99 <span>/ Meal</span>
                     </div>
 
                     <div className="amount_subtext_left">Free Delivery</div>
@@ -210,7 +210,7 @@ export default function PricingPlan({ isMobile }) {
                 <div className="row per-meal">
                   <div className="col-6 border_up border_right">
                     <div className="amount_left">
-                      $90.99 <span>Per Meal</span>
+                      $90.99 <span>/ Meal</span>
                     </div>
 
                     <div className="amount_subtext_left">Free Delivery</div>

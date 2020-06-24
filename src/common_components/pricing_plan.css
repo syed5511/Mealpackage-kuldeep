@@ -249,13 +249,28 @@ html {
   font-family: Roboto Medium;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 991px) {
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-deck .card {
+    margin-left: 0;
+    margin-right: 0;
+    width: 75%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
   .simple_healthy {
     font-size: 14px;
     font-weight: normal;
     line-height: 16px;
     width: 72%;
     margin: auto;
+    margin-bottom: 32px;
   }
   .simple_fair {
     font-size: 30px;
@@ -265,13 +280,24 @@ html {
   .keep_it_healthy {
     font-size: 16px;
   }
+  .card-deck {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .card-deck .card {
     min-width: auto;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
   .pricing_card_1,
   .pricing_card_2,
   .pricing_card_3 {
     width: 84%;
     margin: auto;
+  }
+  .pricing_content .container {
+    padding: 0 24px;
   }
 }

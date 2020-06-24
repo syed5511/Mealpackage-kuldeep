@@ -25,7 +25,9 @@ export const LI = styled.li`
   @media (max-width: 1124px) {
     border-bottom: none;
     margin: 0;
-    margin-bottom: 8px;
+    &:last-child {
+      margin-bottom: 8px;
+    }
     &.active {
       border-bottom: none;
       a {
@@ -48,7 +50,7 @@ export const A = styled.a`
     text-decoration: none;
   }
   @media (max-width: 1124px) {
-    padding: 0 16px;
+    padding: 0 40px;
     font-size: 16px;
     color: #555;
   }

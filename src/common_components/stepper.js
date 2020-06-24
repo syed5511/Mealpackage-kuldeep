@@ -23,8 +23,9 @@ const Stepper = ({ steps, currentStep, setCurrentStep, isMobile }) => {
       {steps.map((item, i) => {
         const stepClassName = i <= completedStep ? "stepCompleted" : "";
         const className = i <= currentStep ? "completed" : "";
+        const currentClass = i === currentStep ? "current" : "";
         const mobileClass = isMobile ? "mobile" : "";
-        const selectableClass = `${stepClassName} ${className} ${mobileClass}`;
+        const selectableClass = `${stepClassName} ${className} ${mobileClass} ${currentClass}`;
 
         return (
           <Step key={item.key}>

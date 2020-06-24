@@ -33,6 +33,10 @@ export const Count = styled.div`
     background: #4477ff 0% 0%;
     color: #fff;
   }
+  @media (max-width: 768px) {
+    width: 20px;
+    height: 20px;
+  }
 `;
 
 export const Title = styled.div`
@@ -51,6 +55,13 @@ export const Title = styled.div`
   &.mobile {
     padding: 0 8px;
   }
+  @media (max-width: 768px) {
+    padding: 0 8px;
+    display: none;
+    &.current {
+      display: block;
+    }
+  }
 `;
 
 export const Line = styled.div`
@@ -65,6 +76,10 @@ export const Line = styled.div`
     border-bottom: 2px solid #4477ff;
   }
   &.mobile {
+    margin-right: 0;
+    width: 24px;
+  }
+  @media (max-width: 768px) {
     margin-right: 0;
     width: 24px;
   }

@@ -70,17 +70,17 @@ export const Line = styled.div`
 
 export const MobileNav = styled.div`
   position: fixed;
-  right: -360px;
+  right: -280px;
   top: 0;
   z-index: 1;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   &.show {
-    right: 0;
+    right: -1px;
   }
   width: 100%;
   height: 100vh;
-  max-width: 360px;
+  max-width: 280px;
   padding: 40px 0;
   transition: 0.4s all ease-in-out;
 `;
@@ -90,7 +90,7 @@ export const LoggedInUser = styled.div`
   font-family: Roboto Bold;
   margin-bottom: 12px;
   border-bottom: 1px solid #e5e5e5;
-  padding: 8px 16px;
+  padding: 8px 8px 8px 40px;
 `;
 
 export const Close = styled.img`

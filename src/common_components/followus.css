@@ -12,12 +12,31 @@
   border-right: 1px solid #d4d7e1;
   height: 100%;
 }
+
 .whats_coockin {
-  font: Bold 24px/20px Roboto;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: Roboto Bold;
   text-align: center;
 }
+.subscribe_follow_line {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto Regular;
+}
+.follow_us_heading {
+  font-size: 24px;
+  line-height: 20px;
+  font-family: Roboto Bold;
+  color: #000000;
+  margin-bottom: 0;
+}
 .form-row {
-  margin-top: 24px;
+  margin-top: 16px;
+}
+.form-row > div {
+  margin-bottom: 8px;
 }
 .cookin {
   color: #f38a21;
@@ -30,6 +49,7 @@
   width: 100%;
   font-weight: 600;
   border: 0px;
+  margin: 16px 8px;
 }
 .subscribe_container {
   display: flex;
@@ -37,9 +57,6 @@
 }
 .followus_right {
   text-align: left;
-  font: Bold 24px/20px Roboto;
-}
-.followus_right h6 {
   font: Bold 24px/20px Roboto;
 }
 .followus_right h6 + a img {
@@ -52,5 +69,75 @@
   height: 45px;
 }
 .followus_right img {
-  margin: 10px 10px;
+  margin: 16px 10px 8px;
+}
+
+@media (min-width: 991px) and (max-width: 1270px) {
+  .followus_left > .offset-lg-3 {
+    margin-left: 0;
+  }
+  .followus_left > .col-lg-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .followus_container {
+    height: auto;
+    margin-top: 0;
+  }
+  .followus_content {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    flex: 0 0 80%;
+  }
+  .followus_left.col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-right: none;
+    padding-bottom: 16px;
+  }
+  .followus_right.col-6 {
+    padding-top: 16px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .followus_right > .row > .offset-md-1 {
+    margin-left: 16px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .whats_coockin,
+  .subscribe_follow_line {
+    text-align: left;
+  }
+  .subscribe_follow_line {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .followus_content {
+    flex: 0 0 100%;
+    padding: 0 32px;
+  }
+  .followus_right.col-6,
+  .followus_left.col-6,
+  .followus_left.col-6 > div,
+  .followus_left.col-6 > div > .row > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .subscribe_container > button {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .followus_right > .row > .offset-md-1 {
+    margin-left: 0;
+    padding: 0;
+  }
+  .followus_right img {
+    margin-bottom: 0;
+  }
 }

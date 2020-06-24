@@ -12,10 +12,10 @@ export default function FooterTerms({ isMobile }) {
         ) : (
           <>
             <div className="col-1"></div>
-            <div className="col-4 llc">
+            <div className="col-5 llc">
               @ company name, LLC 2020 | A better way to eat healthy & fresh
             </div>
-            <div className="col-2"></div>
+            <div className="col-1"></div>
 
             <div className="col-4 llc">
               Do Not "Sell My Info" &nbsp;

@@ -35,7 +35,7 @@ export default function FollowUs() {
                       </Form.Row>
                     </Form>
                     <div className="row">
-                      <div className="col-12" style={{ textAlign: "center" }}>
+                      <div className="col-12 subscribe_follow_line">
                         Sign up for offers, recipes, news & more
                       </div>
                     </div>
@@ -49,7 +49,7 @@ export default function FollowUs() {
             <div className="col-6 followus_right">
               <div className="row">
                 <div className="col-md-10 offset-md-1">
-                  <h6>FOLLOW US</h6>
+                  <h6 className="follow_us_heading">Follow Us</h6>
                   <a href="#">
                     <img width="50" src="svg/facebook.svg" />
                   </a>
