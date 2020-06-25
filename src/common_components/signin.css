@@ -1,26 +1,76 @@
-.margin_auto{
-    margin: auto;
-    padding: 10px 0px;
+.margin_auto {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
-.signin_heading{
-    text-align: center;
-    font: Bold 45px/59px Roboto;
-    letter-spacing: 0px;
-    color: #181436;
-    opacity: 1;
+.signin-cover {
+  max-width: 420px;
 }
-.signin_text{
-    text-align: center;
-    font: Regular 18px/24px Roboto;
-    letter-spacing: 0px;
-    opacity: 1;
-    padding: 20px 0px;
+.signin-cover form .form-row {
+  margin-left: 0;
+  margin-right: 0;
 }
-.forgot_password{
-    text-align: center;
-    padding: 20px 0px;
-    font: Regular 18px/24px Roboto;
+.signin-cover form .form-label {
+  font-size: 14px;
+  margin-bottom: 0;
 }
-.signin_input{
-    text-align: center;
+.signin-btn-cover {
+  margin-top: 24px;
+}
+.signin_heading {
+  text-align: center;
+  font-size: 45px;
+  line-height: 59px;
+  font-family: Roboto Bold;
+  color: #181436;
+}
+.signin_text {
+  padding: 0;
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #757677;
+  text-align: center;
+}
+.signin_text a {
+  font-size: 18px;
+  line-height: 24px;
+}
+.forgot_password {
+  text-align: center;
+  padding: 20px 0px;
+  font: Regular 18px/24px Roboto;
+}
+.signin-cover .forgot_password a {
+  color: #4477ff;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Roboto Regular;
+}
+.signin_input {
+  text-align: center;
+}
+.signin_input::placeholder {
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Roboto Light;
+  color: #242e4c;
+  opacity: 0.6;
+}
+.signin_input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Roboto Light;
+  color: #242e4c;
+  opacity: 0.6;
+}
+.signin_input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Roboto Light;
+  color: #242e4c;
+  opacity: 0.6;
+}
+.signin-row {
+  margin-top: 0;
 }

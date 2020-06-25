@@ -18,6 +18,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import Tnc from "./common_components/tnc";
 // import Thankyou from "./common_components/thankyou";
 import PricingPage from "./pages/pricing";
+// import SignInPage from "./pages/signin";
+import ConfirmAndPayPage from "./pages/confirm-and-pay";
+// import SignUpPage from "./pages/signup";
+// import ThankyouPage from "./pages/thankyou";
 import useIsMobile from "./utils/useIsMobile";
 
 import "./App.css";
@@ -46,6 +50,10 @@ function App() {
   const isMobile = useIsMobile();
   return (
     <PricingPage />
+    // <SignInPage />
+    // <SignUpPage />
+    // <ConfirmAndPayPage />
+    // <ThankyouPage />
     // <>
     //   <Header />
     //   <div className="cover">

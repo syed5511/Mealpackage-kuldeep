@@ -42,9 +42,9 @@ export const Container = styled.div`
 
   .popover-content.-arrow::before {
     top: -10px;
-    border-left: 9px solid transparent;
-    border-right: 9px solid transparent;
-    border-bottom: 10px solid rgba(0, 0, 0, 0.15);
+    border-left: 13px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 9px solid #eeab5d;
   }
 
   .popover-content.-arrow::after {

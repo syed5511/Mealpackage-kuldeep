@@ -7,7 +7,11 @@ export const Container = styled.div`
   }
 `;
 
-export const Top = styled.div``;
+export const Top = styled.div`
+  @media (min-width: 1124px) {
+    padding-left: 24px;
+  }
+`;
 
 export const Links = styled.ul`
   padding: 0;
@@ -47,8 +51,12 @@ export const Logout = styled.button`
 export const HR = styled.hr`
   margin-top: 12px;
   margin-bottom: 12px;
-  width: calc(100% + 80px);
-  margin-left: -40px;
+  width: calc(100% + 32px);
+  margin-left: -16px;
+  @media (max-width: 1124px) {
+    width: calc(100% + 80px);
+    margin-left: -40px;
+  }
 `;
 
 export const Bottom = styled.div`
@@ -58,6 +66,9 @@ export const Bottom = styled.div`
     font-family: Roboto Bold;
     color: #101010;
     margin-left: 24px;
+  }
+  @media (min-width: 1124px) {
+    padding-left: 24px;
   }
   @media (max-width: 1124px) {
     font-size: 16px;

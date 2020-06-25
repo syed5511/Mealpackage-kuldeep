@@ -1,41 +1,47 @@
 import React, { useState } from "react";
+import { bool } from "prop-types";
 
-import Header from "../../common_components/header";
 import Stepper from "../../common_components/stepper";
-import FollowUs from "../../common_components/followus";
-import Footer from "../../common_components/footer";
-import FooterTerms from "../../common_components/footer_terms";
-import steps from "./config/steps";
-import menuItems from "./config/menuItems";
+import Layout from "../../common_components/layout";
+import steps from "../../config/steps";
 import PricingPlan from "../../common_components/pricing_plan";
-import { Container, StepperCover } from "./styles";
+import PricingLoader from "./PricingLoader";
+import { StepperCover } from "./styles";
 import useIsMobile from "../../utils/useIsMobile";
 
-const PricingPage = () => {
-  const [currentStep, setCurrentStep] = useState(0);
+const PricingPage = ({ isLoading }) => {
   const isMobile = useIsMobile();
+  const [currentStep, setCurrentStep] = useState(0);
   const className = isMobile ? "mobile" : "";
-  return (
-    <Container>
-      <Header isMobile={isMobile} menuItems={menuItems} isLogin={true} />
-      <StepperCover className={className}>
-        <Stepper
-          isMobile={isMobile}
-          steps={steps}
-          currentStep={currentStep}
-          setCurrentStep={setCurrentStep}
-        />
-      </StepperCover>
-      <PricingPlan isMobile={isMobile} />
-      {!isMobile && (
-        <>
-          <FollowUs />
-          <Footer />
-        </>
-      )}
-      <FooterTerms isMobile={isMobile} />
-    </Container>
-  );
+
+  const renderContent = () => {
+    if (isLoading) {
+      return <PricingLoader isMobile={isMobile} />;
+    }
+    return (
+      <>
+        <StepperCover className={className}>
+          <Stepper
+            theme="whiteBg"
+            isMobile={isMobile}
+            steps={steps}
+            currentStep={currentStep}
+            setCurrentStep={setCurrentStep}
+          />
+        </StepperCover>
+        <PricingPlan isMobile={isMobile} />
+      </>
+    );
+  };
+  return <Layout>{renderContent()}</Layout>;
+};
+
+PricingPage.propTypes = {
+  isLoading: bool,
+};
+
+PricingPage.defaultProps = {
+  isLoading: true,
 };
 
 export default PricingPage;

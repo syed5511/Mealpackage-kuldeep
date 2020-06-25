@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border: 1px solid #d4d7e1;
+  background: #ffffff;
   border-radius: 5px;
-  padding: 24px;
   width: 100%;
   margin: auto;
   #card-element {
@@ -33,7 +31,7 @@ export const Container = styled.div`
 export const Label = styled.label`
   color: #181436;
   font-size: 18px;
-  font-weight: bold;
+  font-family: Roboto Bold;
 `;
 
 export const Error = styled.div`

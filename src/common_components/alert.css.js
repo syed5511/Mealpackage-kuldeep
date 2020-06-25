@@ -5,10 +5,12 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Roboto Medium;
   color: rgba(229, 238, 228, 1);
-  padding: 12px;
-  margin: 12px 0;
+  padding: 11px 12px;
+  margin-bottom: 14px;
   &.blue {
     background-color: rgba(24, 20, 54, 1);
     border: 1px solid rgba(24, 20, 54, 1);

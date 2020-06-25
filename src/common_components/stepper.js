@@ -3,7 +3,7 @@ import { arrayOf, shape, string, number, func } from "prop-types";
 
 import { Container, Step, Count, Title, Line } from "./stepper.css";
 
-const Stepper = ({ steps, currentStep, setCurrentStep, isMobile }) => {
+const Stepper = ({ steps, currentStep, setCurrentStep, isMobile, theme }) => {
   const [completedStep, setCompletedStep] = useState(currentStep);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ const Stepper = ({ steps, currentStep, setCurrentStep, isMobile }) => {
         const className = i <= currentStep ? "completed" : "";
         const currentClass = i === currentStep ? "current" : "";
         const mobileClass = isMobile ? "mobile" : "";
-        const selectableClass = `${stepClassName} ${className} ${mobileClass} ${currentClass}`;
+        const selectableClass = `${stepClassName} ${className} ${mobileClass} ${currentClass} ${theme}`;
 
         return (
           <Step key={item.key}>
@@ -52,6 +52,7 @@ Stepper.propTypes = {
       title: string,
     })
   ),
+  theme: string,
   currentStep: number,
   setCurrentStep: func,
 };
@@ -59,6 +60,7 @@ Stepper.propTypes = {
 Stepper.defaultProps = {
   steps: [],
   currentStep: 0,
+  theme: "",
   setCurrentStep: () => 0,
 };
 

@@ -29,6 +29,10 @@ export const Count = styled.div`
     width: 20px;
     height: 20px;
   }
+  &.whiteBg {
+    background: #d9e0f5 0% 0%;
+    color: #181436;
+  }
   &.completed {
     background: #4477ff 0% 0%;
     color: #fff;
@@ -48,6 +52,9 @@ export const Title = styled.div`
   font-family: Roboto Bold;
   &.stepCompleted {
     cursor: pointer;
+  }
+  &.whiteBg {
+    color: #d9e0f5;
   }
   &.completed {
     color: #4477ff;
@@ -71,6 +78,9 @@ export const Line = styled.div`
   cursor: no-drop;
   &.stepCompleted {
     cursor: auto;
+  }
+  &.whiteBg {
+    border-bottom: 2px solid #d9e0f5;
   }
   &.completed {
     border-bottom: 2px solid #4477ff;

@@ -1,55 +1,87 @@
-.confirm_container{
-    max-width: 960px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.confirm_container {
+  max-width: 960px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.confirm_text{
-    text-align: center!important;
-    font: Bold 28px/20px Palatino Linotype;
-    letter-spacing: 0px;
-    color: #5C83EE;
-    padding: 20px;
+.confirm_text {
+  text-align: center !important;
+  font-size: 22px;
+  line-height: 20px;
+  font-family: Roboto Regular;
+  color: #5c83ee;
+  padding: 20px;
+  padding-bottom: 16px;
+  padding-top: 0;
 }
-.order_summary{
-    order:2;
-    font: 16px/20px Roboto;
-    letter-spacing: 0px;
-    color: #555555;
-    background: #FBFBFB 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #BABABA29;
-    border: 1px solid #D4D7E1;
-    border-radius: 5px;
-    padding: 30px;
+.order_summary {
+  order: 2;
+  box-shadow: 0px 3px 6px #bababa29;
+  border: 1px solid #d4d7e1;
+  border-radius: 5px;
+  padding: 16px 24px;
+  background: #fbfbfb;
 }
-.order_summary h4, h5{
-    font: Bold 20px/26px Roboto;
-    font-weight: bolder;
-    
+.order_summary h4,
+h5 {
+  color: #181436;
+  font-size: 18px;
+  font-family: Roboto Bold;
 }
-.order_summary .p-10{
-    padding: 10px 0px;
+.order_summary .p-10 {
+  padding: 10px 0px;
 }
-.order_summary .total{
-    padding-top: 40px;
-    font: 14px/24px Roboto;
+.order_summary .total {
+  padding-top: 40px;
+  font: 14px/24px Roboto Regular;
+  color: #000;
 }
-.order_summary .right{
-    float: right;
+.order_summary .right {
+  float: right;
 }
-.order_summary .green{
-    color: #33A754;
+.order_summary .green {
+  color: #33a754;
 }
 
-.order_form{
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #D4D7E1;
-    border-radius: 5px;
-    padding: 30px;
+.order_form {
+  background: #ffffff;
+  border: 1px solid #d4d7e1;
+  border-radius: 5px;
+  padding: 16px 24px;
 }
-.order_form h4{
-    font: Bold 20px/27px Roboto;
+.order_form h4 {
+  color: #181436;
+  font-size: 18px;
+  font-family: Roboto Bold;
+}
+.confirm_container .form-row {
+  margin-top: 0;
+}
+.confirm_container .form-label,
+.confirm_container .discount_heading {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.confirm_container .discount_heading,
+.confirm_container .discount_heading + div,
+.confirm_container .discount_heading + div > div {
+  margin-bottom: 0;
+}
+.confirm_container .tnc_checkout {
+  padding: 0;
+  border: none;
+}
+.confirm_container .summary_container {
+  font-size: 14px;
+  color: #5a5555;
+  padding-top: 0;
+}
+.confirm_container .summary_container > div {
+  font-family: Roboto Bold;
+}
+.confirm_container .cover-row {
+  align-items: flex-start;
 }
