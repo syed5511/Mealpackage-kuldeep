@@ -17,7 +17,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import StripeCheckout from "./common_components/stripe_checkout";
 // import Tnc from "./common_components/tnc";
 // import Thankyou from "./common_components/thankyou";
-import PricingPage from "./pages/pricing";
+// import PricingPage from "./pages/pricing";
 // import SignInPage from "./pages/signin";
 import ConfirmAndPayPage from "./pages/confirm-and-pay";
 // import SignUpPage from "./pages/signup";
@@ -49,10 +49,10 @@ function App() {
   const [currentStep, setCurrentStep] = useState(1);
   const isMobile = useIsMobile();
   return (
-    <PricingPage />
+    // <PricingPage />
     // <SignInPage />
     // <SignUpPage />
-    // <ConfirmAndPayPage />
+    <ConfirmAndPayPage />
     // <ThankyouPage />
     // <>
     //   <Header />

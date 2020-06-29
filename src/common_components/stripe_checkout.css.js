@@ -38,11 +38,3 @@ export const Error = styled.div`
   color: #fa755a;
   font-size: 12px;
 `;
-
-export const Note = styled.div`
-	rgba(32, 32, 32, 0.9);
-	font-size: 14px;
-	display: flex;
-	justify-content: center;
-	margin: 12px 0;
-`;

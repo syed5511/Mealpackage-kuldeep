@@ -20,7 +20,7 @@ export default function Signin() {
   return (
     <>
       <div className="row">
-        <div className="offset-lg-3 col-lg-6 offset-md-2 col-md-8 offset-xl-4 col-xl-4 signin-cover">
+        <div className="signin-cover">
           <div className="signin_heading">Sign In</div>
 
           <div className="signin_text">

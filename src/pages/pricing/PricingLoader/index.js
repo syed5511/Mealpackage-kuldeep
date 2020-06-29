@@ -12,7 +12,7 @@ export default function PricingLoader({ isMobile }) {
             <h3 class="keep_it_healthy">
               <Skeleton
                 primaryColor="#dbe1e8d4"
-                width="200px"
+                width={isMobile ? "100%" : "200px"}
                 height="24px"
                 style={{ margin: "auto", marginTop: 48 }}
               />
@@ -20,15 +20,15 @@ export default function PricingLoader({ isMobile }) {
           )}
           <h1 class="simple_fair">
             <Skeleton
-              width="680px"
+              width={isMobile ? "100%" : "680px"}
               primaryColor="#dbe1e8d4"
-              height="64px"
+              height={isMobile ? "40px" : "64px"}
               style={{ margin: "auto" }}
             />
           </h1>
           <p class="lead simple_healthy">
             <Skeleton
-              width="480px"
+              width={isMobile ? "100%" : "480px"}
               primaryColor="#dbe1e8d4"
               height="18px"
               style={{ margin: "auto" }}
@@ -94,7 +94,7 @@ export default function PricingLoader({ isMobile }) {
                   width="136px"
                   className="circle"
                   height="136px"
-                  style={{ margin: "auto", marginTop: 64 }}
+                  style={{ margin: "auto", marginTop: isMobile ? 48 : 64 }}
                 />
                 <h4 class="my-0 font-weight-normal one_person_h">
                   <Skeleton width="100%" height="24px" />
@@ -145,7 +145,7 @@ export default function PricingLoader({ isMobile }) {
                   width="136px"
                   className="circle"
                   height="136px"
-                  style={{ margin: "auto", marginTop: 88 }}
+                  style={{ margin: "auto", marginTop: isMobile ? 48 : 64 }}
                 />
                 <h4 class="my-0 font-weight-normal one_person_h">
                   <Skeleton width="100%" height="24px" />

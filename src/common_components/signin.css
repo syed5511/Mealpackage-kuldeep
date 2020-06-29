@@ -5,6 +5,8 @@
 }
 .signin-cover {
   max-width: 420px;
+  width: 100%;
+  margin: auto;
 }
 .signin-cover form .form-row {
   margin-left: 0;
@@ -73,4 +75,24 @@
 }
 .signin-row {
   margin-top: 0;
+}
+
+@media (max-width: 780px) {
+  .signin-cover {
+    padding: 0 32px 32px;
+  }
+  .signin_heading {
+    font-size: 28px;
+    line-height: 37px;
+    font-family: Roboto Medium;
+  }
+  .signin_text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .signin-cover .forgot_password a {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: Roboto Bold;
+  }
 }

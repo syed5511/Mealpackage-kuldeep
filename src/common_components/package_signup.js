@@ -21,7 +21,7 @@ const schema = yup.object({
   terms: yup.bool().required(),
 });
 
-export default function PackageSignup() {
+export default function PackageSignup({ isMobile }) {
   return (
     <>
       <div className="row">
@@ -51,10 +51,11 @@ export default function PackageSignup() {
               <Form noValidate onSubmit={handleSubmit}>
                 <Form.Row>
                   <Form.Group as={Col} md="6" controlId="validationFormik01">
-                    <Form.Label>First name</Form.Label>
+                    {!isMobile && <Form.Label>First name</Form.Label>}
                     <Form.Control
                       type="text"
                       name="firstName"
+                      placeholder="First Name"
                       className="text_input"
                       value={values.firstName}
                       onChange={handleChange}
@@ -63,10 +64,11 @@ export default function PackageSignup() {
                     <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                   </Form.Group>
                   <Form.Group as={Col} md="6" controlId="validationFormik02">
-                    <Form.Label>Last name</Form.Label>
+                    {!isMobile && <Form.Label>Last name</Form.Label>}
                     <Form.Control
                       type="text"
                       name="lastName"
+                      placeholder="Last Name"
                       className="text_input"
                       value={values.lastName}
                       onChange={handleChange}
@@ -78,7 +80,7 @@ export default function PackageSignup() {
                 </Form.Row>
                 <Form.Row>
                   <Form.Group as={Col} md="8" controlId="validationFormik03">
-                    <Form.Label>Email</Form.Label>
+                    {!isMobile && <Form.Label>Email</Form.Label>}
                     <Form.Control
                       type="text"
                       placeholder="Email"
@@ -94,8 +96,13 @@ export default function PackageSignup() {
                     </Form.Control.Feedback>
                   </Form.Group>
 
-                  <Form.Group as={Col} md="4" controlId="validationFormik05">
-                    <Form.Label>Zip</Form.Label>
+                  <Form.Group
+                    as={Col}
+                    md="4"
+                    controlId="validationFormik05"
+                    className="zip"
+                  >
+                    {!isMobile && <Form.Label>Zip</Form.Label>}
                     <Form.Control
                       type="text"
                       placeholder="Zip"
@@ -114,10 +121,11 @@ export default function PackageSignup() {
 
                 <Form.Row>
                   <Form.Group as={Col} md="6" controlId="validationFormik01">
-                    <Form.Label>Password</Form.Label>
+                    {!isMobile && <Form.Label>Password</Form.Label>}
                     <Form.Control
                       type="password"
                       name="password"
+                      placeholder="Password"
                       className="text_input"
                       value={values.firstName}
                       onChange={handleChange}
@@ -126,10 +134,11 @@ export default function PackageSignup() {
                     <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                   </Form.Group>
                   <Form.Group as={Col} md="6" controlId="validationFormik02">
-                    <Form.Label>Retype Password</Form.Label>
+                    {!isMobile && <Form.Label>Retype Password</Form.Label>}
                     <Form.Control
                       type="password"
                       name="retypePassword"
+                      placeholder="Retype Password"
                       className="text_input"
                       value={values.lastName}
                       onChange={handleChange}

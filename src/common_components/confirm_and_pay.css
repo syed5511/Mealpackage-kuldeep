@@ -85,3 +85,67 @@ h5 {
 .confirm_container .cover-row {
   align-items: flex-start;
 }
+.confirm_container .note {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+@media (max-width: 780px) {
+  .confirm_container {
+    padding: 0 0 32px;
+  }
+  .confirm_container .promoBox > .form-group {
+    padding: 0;
+  }
+  .confirm_container .promo-cover {
+    display: flex;
+    align-items: center;
+  }
+  .confirm_container .order_form {
+    padding: 16px;
+    background-color: #fcfcfc;
+    margin: 0 !important;
+  }
+  .confirm_container .order_form.promo-container {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+  .confirm_container .zip {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .confirm_container .top-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .confirm_container .main-heading {
+    color: #181436;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: Roboto Bold;
+  }
+  .confirm_container .main-heading.margin-8 {
+    margin-bottom: 8px;
+  }
+  .confirm_container .main-heading.margin-8-2 {
+    margin: 8px 0;
+  }
+  .confirm_container .title-heading {
+    color: #181436;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Roboto Bold;
+    margin-bottom: 8px;
+  }
+  .confirm_container .zero-margin {
+    margin-bottom: 0;
+  }
+  .confirm_container .order_summary {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -6,9 +6,7 @@ import {
   useElements,
   useStripe,
 } from "@stripe/react-stripe-js";
-
-import Button from "./button";
-import { Container, Label, Error, Note } from "./stripe_checkout.css";
+import { Container, Label, Error } from "./stripe_checkout.css";
 
 const stripePromise = loadStripe("pk_test_MKf79LKoGDTPoDyPKUGEOT7o00P9oxhiHW");
 
@@ -43,7 +41,7 @@ const CARD_ELEMENT_OPTIONS = {
   },
 };
 
-const CheckoutForm = () => {
+const CheckoutForm = ({ isMobile }) => {
   const [error, setError] = useState(null);
   const stripe = useStripe();
   const elements = useElements();
@@ -76,7 +74,7 @@ const CheckoutForm = () => {
   return (
     <Container>
       <form onSubmit={handleSubmit}>
-        <Label for="card-element">Enter Card Detail</Label>
+        {!isMobile && <Label for="card-element">Enter Card Detail</Label>}
         <CardElement
           id="card-element"
           options={CARD_ELEMENT_OPTIONS}
@@ -85,16 +83,14 @@ const CheckoutForm = () => {
         <Error className="card-errors" role="alert">
           {error}
         </Error>
-        <Note>Skip or cancel any time</Note>
-        <Button type="submit">PLACE ORDER & CHOOSE MEAL</Button>
       </form>
     </Container>
   );
 };
 
-const StripeCheckout = () => (
+const StripeCheckout = ({ isMobile }) => (
   <Elements stripe={stripePromise}>
-    <CheckoutForm />
+    <CheckoutForm isMobile={isMobile} />
   </Elements>
 );
 

@@ -22,7 +22,7 @@ const SignupPage = () => {
           setCurrentStep={setCurrentStep}
         />
       </StepperCover>
-      <Signup />
+      <Signup isMobile={isMobile} />
     </Layout>
   );
 };
