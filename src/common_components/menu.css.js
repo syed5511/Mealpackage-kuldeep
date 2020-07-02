@@ -18,40 +18,35 @@ export const LI = styled.li`
   cursor: pointer;
   margin: 0 8px;
   height: 100%;
-  border-bottom: 3px solid transparent;
-  &.active {
-    border-bottom: 3px solid #eeab5d;
-  }
   @media (max-width: 1124px) {
-    border-bottom: none;
     margin: 0;
     &:last-child {
       margin-bottom: 8px;
     }
-    &.active {
-      border-bottom: none;
-      a {
-        color: #eeab5d;
-      }
-    }
   }
-`;
 
-export const A = styled.a`
-  height: 100%;
-  display: flex;
-  align-items: center;
-  color: #e9e3c8;
-  font-size: 14px;
-  line-height: 24px;
-  font-family: Roboto Bold;
-  &:hover {
-    color: #eeab5d;
-    text-decoration: none;
-  }
-  @media (max-width: 1124px) {
-    padding: 0 40px;
-    font-size: 16px;
-    color: #555;
+  a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #e9e3c8;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Roboto Bold;
+    border-bottom: 4px solid transparent;
+    &:hover {
+      color: #eeab5d;
+      text-decoration: none;
+    }
+    &.active {
+      color: #eeab5d;
+      border-bottom: 4px solid #eeab5d;
+    }
+    @media (max-width: 1124px) {
+      padding: 0 40px;
+      font-size: 16px;
+      color: #555;
+      border-bottom: none;
+    }
   }
 `;

@@ -5,11 +5,9 @@ import Layout from "../../common_components/layout";
 import steps from "../../config/steps";
 import SignIn from "../../common_components/signin";
 import { StepperCover } from "./styles";
-import useIsMobile from "../../utils/useIsMobile";
 
-const SignInPage = () => {
+const SignInPage = ({ isMobile }) => {
   const [currentStep, setCurrentStep] = useState(2);
-  const isMobile = useIsMobile();
   const className = isMobile ? "mobile" : "";
   return (
     <Layout>

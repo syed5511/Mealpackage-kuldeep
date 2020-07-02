@@ -2,12 +2,14 @@ const menuItems = [
   {
     key: "on_menu",
     title: "ON MENU",
-    url: "#",
+    url: "/",
+    exact: true,
   },
   {
     key: "pricing",
     title: "PRICING",
-    url: "#",
+    url: "/pricing",
+    exact: false,
   },
 ];
 
