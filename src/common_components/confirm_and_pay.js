@@ -8,6 +8,7 @@ import StripeCheckout from "./stripe_checkout";
 import Button from "./button";
 import Alert from "./alert";
 import Tnc from "./tnc";
+import Skeleton from "./skeleton";
 
 const schema = yup.object({
   address: yup.string().required(),
@@ -20,7 +21,7 @@ const schema = yup.object({
   discount_code: yup.bool().required(),
 });
 
-export default function ConfirmAndPay({ isMobile }) {
+export default function ConfirmAndPay({ isMobile, isLoading }) {
   const renderZip = (values, handleChange, touched, errors) => (
     <Form.Group
       as={Col}
@@ -47,42 +48,183 @@ export default function ConfirmAndPay({ isMobile }) {
       <Button type="submit">PLACE ORDER & CHOOSE MEAL</Button>
     </>
   );
-  const renderSummary = () => (
+
+  const renderSummaryLoader = () => (
     <div className="col-md-4 order_summary">
       {!isMobile && <h4>Order Summary</h4>}
       <div className="p-10 summary_container">
-        <div>Email</div>
-        Syedhaq1122@gmail.com
+        <div>
+          <Skeleton height="16px" width="140px" style={{ marginBottom: 8 }} />
+        </div>
+        <Skeleton height="16px" width="240px" style={{ marginBottom: 16 }} />
       </div>
       <div className="p-10 summary_container">
-        <div>Package</div>2 Person - 3 Meals
+        <div>
+          <Skeleton height="16px" width="160px" style={{ marginBottom: 8 }} />
+        </div>
+        <Skeleton height="16px" width="200px" style={{ marginBottom: 16 }} />
       </div>
       <div className="p-10 summary_container">
-        <div>Complementary Meals</div>3 Meals
+        <div>
+          <Skeleton height="16px" width="180px" style={{ marginBottom: 8 }} />
+        </div>
+        <Skeleton height="16px" width="140px" style={{ marginBottom: 16 }} />
       </div>
 
       <div className="total">
-        Sub Total <span className="right">$59.94</span>
+        <Skeleton
+          height="16px"
+          width="80px"
+          style={{
+            marginBottom: 4,
+            display: "inline-block",
+          }}
+        />{" "}
+        <span className="right">
+          <Skeleton
+            height="16px"
+            width="80px"
+            style={{
+              marginBottom: 4,
+              display: "inline-block",
+            }}
+          />
+        </span>
         <div className="green">
-          Shipping{" "}
+          <Skeleton
+            height="16px"
+            width="80px"
+            style={{
+              marginBottom: 4,
+              display: "inline-block",
+            }}
+          />{" "}
           <span className="right">
-            <b>Free</b>
+            <b>
+              <Skeleton
+                height="16px"
+                width="80px"
+                style={{
+                  marginBottom: 4,
+                  display: "inline-block",
+                }}
+              />
+            </b>
           </span>
         </div>
         <div>
-          Total meals <span className="right">6</span>
+          <Skeleton
+            height="16px"
+            width="80px"
+            style={{
+              marginBottom: 4,
+              display: "inline-block",
+            }}
+          />{" "}
+          <span className="right">
+            <Skeleton
+              height="16px"
+              width="80px"
+              style={{
+                marginBottom: 4,
+                display: "inline-block",
+              }}
+            />
+          </span>
         </div>
         <div>
-          Est. tax <span className="right">$0.00</span>
+          <Skeleton
+            height="16px"
+            width="80px"
+            style={{
+              marginBottom: 4,
+              display: "inline-block",
+            }}
+          />{" "}
+          <span className="right">
+            <Skeleton
+              height="16px"
+              width="80px"
+              style={{
+                marginBottom: 4,
+                display: "inline-block",
+              }}
+            />
+          </span>
         </div>
         <div>
           <b>
-            Total <span className="right">$59.94</span>
+            <Skeleton
+              height="16px"
+              width="80px"
+              style={{
+                marginBottom: 4,
+                display: "inline-block",
+              }}
+            />{" "}
+            <span className="right">
+              <Skeleton
+                height="16px"
+                width="80px"
+                style={{
+                  marginBottom: 4,
+                  display: "inline-block",
+                }}
+              />
+            </span>
           </b>
         </div>
       </div>
     </div>
   );
+
+  const renderSummary = () =>
+    isLoading ? (
+      renderSummaryLoader()
+    ) : (
+      <div className="col-md-4 order_summary">
+        {!isMobile && <h4>Order Summary</h4>}
+        <div className="p-10 summary_container">
+          <div>Email</div>
+          Syedhaq1122@gmail.com
+        </div>
+        <div className="p-10 summary_container">
+          <div>Package</div>2 Person - 3 Meals
+        </div>
+        <div className="p-10 summary_container">
+          <div>Complementary Meals</div>3 Meals
+        </div>
+
+        <div className="total">
+          Sub Total <span className="right">$59.94</span>
+          <div className="green">
+            Shipping{" "}
+            <span className="right">
+              <b>Free</b>
+            </span>
+          </div>
+          <div>
+            Total meals <span className="right">6</span>
+          </div>
+          <div>
+            Est. tax <span className="right">$0.00</span>
+          </div>
+          <div>
+            <b>
+              Total <span className="right">$59.94</span>
+            </b>
+          </div>
+        </div>
+      </div>
+    );
+  const renderAlert = () =>
+    isLoading ? (
+      <Skeleton height="45px" width="100%" style={{ marginBottom: 12 }} />
+    ) : (
+      <Alert className="mid-space">
+        You will receive future plan at $59.94 with 3 meals
+      </Alert>
+    );
   return (
     <div className="confirm_container">
       {!isMobile && (
@@ -92,11 +234,7 @@ export default function ConfirmAndPay({ isMobile }) {
       )}
       <div className="row cover-row">
         <div className="col-md-8">
-          {!isMobile && (
-            <Alert className="mid-space">
-              You will receive future plan at $59.94 with 3 meals
-            </Alert>
-          )}
+          {!isMobile && renderAlert()}
           <Formik
             validationSchema={schema}
             onSubmit={console.log}
@@ -118,7 +256,6 @@ export default function ConfirmAndPay({ isMobile }) {
                 {isMobile && (
                   <div className="top-heading">
                     <div className="main-heading">Delivery Information</div>
-                    <div className="title-heading">Confirm & Pay</div>
                   </div>
                 )}
                 <div className="order_form">
@@ -148,7 +285,7 @@ export default function ConfirmAndPay({ isMobile }) {
                       className="zip"
                     >
                       {!isMobile && <Form.Label>State</Form.Label>}
-                      <Form.Control as="select" value="Select State">
+                      <Form.Control as="select" value="Select State" custom>
                         <option>Select State</option>
                         <option>...</option>
                       </Form.Control>
@@ -160,7 +297,7 @@ export default function ConfirmAndPay({ isMobile }) {
                       className="zip"
                     >
                       {!isMobile && <Form.Label>City</Form.Label>}
-                      <Form.Control as="select" value="Select City">
+                      <Form.Control as="select" value="Select City" custom>
                         <option>Select City</option>
                         <option>...</option>
                       </Form.Control>
@@ -172,7 +309,7 @@ export default function ConfirmAndPay({ isMobile }) {
                       className="zip zero-margin"
                     >
                       {!isMobile && <Form.Label>Address type</Form.Label>}
-                      <Form.Control as="select" value="Address Type">
+                      <Form.Control as="select" value="Address Type" custom>
                         <option>Address Type</option>
                         <option>...</option>
                       </Form.Control>

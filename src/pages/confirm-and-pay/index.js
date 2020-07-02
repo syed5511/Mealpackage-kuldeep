@@ -22,7 +22,7 @@ const ConfirmAndPayPage = () => {
           setCurrentStep={setCurrentStep}
         />
       </StepperCover>
-      <ConfirmAndPay isMobile={isMobile} />
+      <ConfirmAndPay isMobile={isMobile} isLoading={true} />
     </Layout>
   );
 };

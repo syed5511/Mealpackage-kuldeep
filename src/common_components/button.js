@@ -1,17 +1,25 @@
 import React from "react";
 import { string, oneOfType, node } from "prop-types";
-import Button from "react-bootstrap/Button";
-import "./button.css";
+import { bool } from "yup";
+import { Button, Loader } from "./button.css";
 
-export default function PackageButton({ children, type, className, ...rest }) {
+export default function PackageButton({
+  children,
+  type,
+  className,
+  isLoading,
+  disabled,
+  ...rest
+}) {
   return (
     <Button
       className={`${className} package_button`}
       variant="primary"
       type={type}
+      disabled={isLoading || disabled}
       {...rest}
     >
-      {children}
+      {children} {isLoading && <Loader />}
     </Button>
   );
 }
@@ -20,9 +28,13 @@ PackageButton.propTypes = {
   children: oneOfType([node, string]).isRequired,
   type: string,
   className: string,
+  isLoading: bool,
+  disabled: bool,
 };
 
 PackageButton.defaultProps = {
   type: "button",
   className: "",
+  isLoading: false,
+  disabled: false,
 };

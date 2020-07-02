@@ -2,10 +2,7 @@ import React from "react";
 import { Formik } from "formik";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import InputGroup from "react-bootstrap/InputGroup";
-import Button from "react-bootstrap/Button";
-import PackageButton from "./button.js";
+import Button from "./button";
 import * as yup from "yup";
 import "./package_signup.css";
 
@@ -153,6 +150,7 @@ export default function PackageSignup({ isMobile }) {
                   type="submit"
                   className="package_button signup_button"
                   variant="primary"
+                  isLoading={true}
                 >
                   Create My Account
                 </Button>
