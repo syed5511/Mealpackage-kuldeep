@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import Stepper from "../../common_components/stepper";
-import Layout from "../../common_components/layout";
 import steps from "../../config/steps";
 import ConfirmAndPay from "../../common_components/confirm_and_pay";
 import { StepperCover } from "./styles";
@@ -12,7 +11,7 @@ const ConfirmAndPayPage = () => {
   const isMobile = useIsMobile();
   const className = isMobile ? "mobile" : "";
   return (
-    <Layout>
+    <>
       <StepperCover className={className}>
         <Stepper
           theme="whiteBg"
@@ -23,7 +22,7 @@ const ConfirmAndPayPage = () => {
         />
       </StepperCover>
       <ConfirmAndPay isMobile={isMobile} isLoading={true} />
-    </Layout>
+    </>
   );
 };
 

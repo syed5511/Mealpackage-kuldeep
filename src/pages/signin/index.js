@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import Stepper from "../../common_components/stepper";
-import Layout from "../../common_components/layout";
 import steps from "../../config/steps";
 import SignIn from "../../common_components/signin";
 import { StepperCover } from "./styles";
@@ -10,7 +9,7 @@ const SignInPage = ({ isMobile }) => {
   const [currentStep, setCurrentStep] = useState(2);
   const className = isMobile ? "mobile" : "";
   return (
-    <Layout>
+    <>
       <StepperCover className={className}>
         <Stepper
           theme="whiteBg"
@@ -21,7 +20,7 @@ const SignInPage = ({ isMobile }) => {
         />
       </StepperCover>
       <SignIn />
-    </Layout>
+    </>
   );
 };
 

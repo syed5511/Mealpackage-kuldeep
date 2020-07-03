@@ -6,8 +6,6 @@ import Button from "./button";
 import * as yup from "yup";
 import "./signin.css";
 
-// const { Formik } = formik;
-
 const schema = yup.object({
   email: yup.string().email().required(),
   password: yup.string().required(),

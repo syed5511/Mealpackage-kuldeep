@@ -47,6 +47,10 @@ export const LI = styled.li`
       font-size: 16px;
       color: #555;
       border-bottom: none;
+      &.active {
+        color: #eeab5d;
+        border-bottom: none;
+      }
     }
   }
 `;

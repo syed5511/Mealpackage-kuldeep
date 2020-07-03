@@ -22,7 +22,6 @@ const stripeTokenHandler = async (token) => {
   return response.json();
 };
 
-// Custom styling can be passed to options when creating an Element.
 const CARD_ELEMENT_OPTIONS = {
   style: {
     base: {
@@ -46,7 +45,6 @@ const CheckoutForm = ({ isMobile }) => {
   const stripe = useStripe();
   const elements = useElements();
 
-  // Handle real-time validation errors from the card Element.
   const handleChange = (event) => {
     if (event.error) {
       setError(event.error.message);
@@ -55,18 +53,14 @@ const CheckoutForm = ({ isMobile }) => {
     }
   };
 
-  // Handle form submission.
   const handleSubmit = async (event) => {
-    console.log("evetn");
     event.preventDefault();
     const card = elements.getElement(CardElement);
     const result = await stripe.createToken(card);
     if (result.error) {
-      // Inform the user if there was an error.
       setError(result.error.message);
     } else {
       setError(null);
-      // Send the token to your server.
       stripeTokenHandler(result.token);
     }
   };

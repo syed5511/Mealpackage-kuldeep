@@ -11,8 +11,6 @@ import ThankYouPage from "./pages/thankyou";
 import OnMenuPage from "./pages/on-menu";
 import useIsMobile from "./utils/useIsMobile";
 
-import "./App.css";
-
 const App = () => {
   const isMobile = useIsMobile();
 

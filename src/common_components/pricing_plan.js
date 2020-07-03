@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+import Button from "./button";
 import ToggleButton from "@material-ui/lab/ToggleButton";
 import ToggleButtonGroup from "@material-ui/lab/ToggleButtonGroup";
 
@@ -93,12 +93,12 @@ export default function PricingPlan({ isMobile }) {
                   </div>
                 </div>
 
-                <button
+                <Button
                   type="button"
                   class="btn btn-lg btn-block btn-outline-primary card-action"
                 >
                   Two Person Plan
-                </button>
+                </Button>
               </div>
             </div>
             <div class="card mb-4 shadow-sm pricing_card_2">
@@ -157,12 +157,12 @@ export default function PricingPlan({ isMobile }) {
                   </div>
                 </div>
 
-                <button
+                <Button
                   type="button"
                   class="btn btn-lg btn-block btn-primary card-action"
                 >
                   Get started
-                </button>
+                </Button>
               </div>
             </div>
             <div class="card mb-4 shadow-sm pricing_card_3">
@@ -221,12 +221,12 @@ export default function PricingPlan({ isMobile }) {
                   </div>
                 </div>
 
-                <button
+                <Button
                   type="button"
                   class="btn btn-lg btn-block btn-primary card-action"
                 >
                   Contact us
-                </button>
+                </Button>
               </div>
             </div>
           </div>
