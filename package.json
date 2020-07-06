@@ -49,6 +49,7 @@
   "devDependencies": {
     "glob-all": "^3.2.1",
     "path": "^0.12.7",
-    "purgecss-webpack-plugin": "^2.3.0"
+    "purgecss-webpack-plugin": "^2.3.0",
+    "react-test-renderer": "^16.13.1"
   }
 }

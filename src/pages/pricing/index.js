@@ -38,7 +38,7 @@ PricingPage.propTypes = {
 };
 
 PricingPage.defaultProps = {
-  isLoading: true,
+  isLoading: false,
 };
 
 export default PricingPage;

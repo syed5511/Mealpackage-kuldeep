@@ -1,6 +1,5 @@
 import React from "react";
-import { string, oneOfType, node } from "prop-types";
-import { bool } from "yup";
+import { string, oneOfType, node, bool } from "prop-types";
 import { Button, Loader } from "./button.css";
 
 export default function PackageButton({

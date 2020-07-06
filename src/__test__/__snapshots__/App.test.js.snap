@@ -1,0 +1,689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App js snapshot 1`] = `
+Array [
+  <header
+    className="sc-fzoLag dIlTKA"
+  >
+    <div
+      className="sc-fzpjYC kGCtjj"
+    >
+      <img
+        alt=""
+        className="sc-fzoXzr ePeZLo"
+        src="/logo.png"
+      />
+      <div
+        className="sc-fznxsB hjnitt"
+      >
+        <ul
+          className="sc-AxjAm egATdG"
+        >
+          <li
+            className="sc-AxirZ jIOcLI"
+            onClick={[Function]}
+          >
+            <a
+              aria-current="page"
+              className=""
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              ON MENU
+            </a>
+          </li>
+          <li
+            className="sc-AxirZ jIOcLI"
+            onClick={[Function]}
+          >
+            <a
+              aria-current={null}
+              href="/pricing"
+              onClick={[Function]}
+            >
+              PRICING
+            </a>
+          </li>
+        </ul>
+        <div
+          className="sc-AxiKw cQiIBL"
+        >
+          <div
+            className="popover"
+          >
+            <div
+              className="sc-AxhCb kYwVIA"
+              onClick={[Function]}
+              onMouseOver={[Function]}
+            >
+              <div
+                className="sc-fznZeY cUOZzi"
+              >
+                <img
+                  alt=""
+                  className="sc-fzqBZW eksQHo"
+                  src="/static/images/pin.png"
+                />
+                <div
+                  className="sc-fzokOt hYUweD"
+                >
+                  <div
+                    className="sc-fzqNJr kuikfi"
+                  >
+                    We don't have delivery service to
+                  </div>
+                  <div
+                    className="sc-fzoyAV dYJGmn"
+                  >
+                    Skokie - 606060
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-fznWqX fwZipQ"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-fzoiQi iDhDFB"
+        />
+        <div
+          className="sc-fzoiQi iDhDFB"
+        />
+        <div
+          className="sc-fzoiQi iDhDFB"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-fzpjYC sc-fznJRM jWxOPN"
+    >
+      <div
+        className="sc-fznKkj eimxmm"
+      >
+        <div
+          className="sc-AxiKw cQiIBL"
+        >
+          <div
+            className="popover"
+          >
+            <div
+              className="sc-AxhCb kYwVIA"
+              onClick={[Function]}
+              onMouseOver={[Function]}
+            >
+              <div
+                className="sc-fzpans clgpyt"
+              >
+                <img
+                  alt=""
+                  className="sc-fznyAO aqOFJ loggedIn"
+                  src="/static/images/restaurant.png"
+                />
+                <div
+                  className="sc-fzplWN dwboMu"
+                >
+                  Hello Syed
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-fznKkj eimxmm small"
+      >
+        <div
+          className="sc-AxhUy dXLonu"
+        >
+          <div
+            className="sc-AxgMl iqBGmz"
+          >
+            <ul
+              className="sc-AxheI dTtpEJ"
+            >
+              <li
+                className="sc-Axmtr haTalS"
+              >
+                Order History
+              </li>
+              <li
+                className="sc-Axmtr haTalS"
+              >
+                Delivery Address
+              </li>
+              <li
+                className="sc-Axmtr haTalS"
+              >
+                Subscription
+              </li>
+            </ul>
+            <button
+              className="sc-AxmLO kjIQHd"
+            >
+              Logout
+            </button>
+          </div>
+          <hr
+            className="sc-fzozJi ekRuVc"
+          />
+          <div
+            className="sc-fzoLsD iNRIDG"
+          >
+            Available Plates 
+            <span>
+              5
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-fzqARJ jYKtpI"
+    >
+      <img
+        alt=""
+        className="sc-fzoyTs dEwOdq"
+        onClick={[Function]}
+        src="/static/images/cross.png"
+      />
+      <div
+        className="sc-fzqNqU QSAyr"
+      >
+        Hello Syed!
+      </div>
+      <ul
+        className="sc-AxjAm egATdG"
+      >
+        <li
+          className="sc-AxirZ jIOcLI"
+          onClick={[Function]}
+        >
+          <a
+            aria-current="page"
+            className=""
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            ON MENU
+          </a>
+        </li>
+        <li
+          className="sc-AxirZ jIOcLI"
+          onClick={[Function]}
+        >
+          <a
+            aria-current={null}
+            href="/pricing"
+            onClick={[Function]}
+          >
+            PRICING
+          </a>
+        </li>
+      </ul>
+      <div
+        className="sc-fznKkj eimxmm"
+      >
+        <div
+          className="sc-AxiKw cQiIBL"
+        >
+          <div
+            className="popover"
+          >
+            <div
+              className="sc-AxhCb kYwVIA"
+              onClick={[Function]}
+              onMouseOver={[Function]}
+            >
+              <div
+                className="sc-fzpans clgpyt"
+              >
+                <img
+                  alt=""
+                  className="sc-fznyAO aqOFJ loggedIn"
+                  src="/static/images/restaurant.png"
+                />
+                <div
+                  className="sc-fzplWN dwboMu"
+                >
+                  Hello Syed
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-fznKkj eimxmm small"
+      >
+        <div
+          className="sc-AxhUy dXLonu"
+        >
+          <div
+            className="sc-AxgMl iqBGmz"
+          >
+            <ul
+              className="sc-AxheI dTtpEJ"
+            >
+              <li
+                className="sc-Axmtr haTalS"
+              >
+                Order History
+              </li>
+              <li
+                className="sc-Axmtr haTalS"
+              >
+                Delivery Address
+              </li>
+              <li
+                className="sc-Axmtr haTalS"
+              >
+                Subscription
+              </li>
+            </ul>
+            <button
+              className="sc-AxmLO kjIQHd"
+            >
+              Logout
+            </button>
+          </div>
+          <hr
+            className="sc-fzozJi ekRuVc"
+          />
+          <div
+            className="sc-fzoLsD iNRIDG"
+          >
+            Available Plates 
+            <span>
+              5
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>,
+  <div>
+    On Menu Page
+  </div>,
+  <div
+    className="followus_container"
+  >
+    <div
+      className="row"
+      style={
+        Object {
+          "height": "100%",
+        }
+      }
+    >
+      <div
+        className="col-12 followus_content"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6 followus_left"
+          >
+            <div
+              className="offset-lg-3 col-lg-9 col-md-12"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-9"
+                >
+                  <div
+                    className="whats_coockin"
+                  >
+                    Discover What's 
+                    <span
+                      className="cookin"
+                    >
+                      Cookin'
+                    </span>
+                  </div>
+                  <form
+                    className=""
+                  >
+                    <div
+                      className="form-row"
+                    >
+                      <div
+                        className="margin_auto form-group col-md-12"
+                      >
+                        <input
+                          className="text_input subscribe_input form-control"
+                          id="validationFormik03"
+                          name="email"
+                          placeholder="Email Address"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                  </form>
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-12 subscribe_follow_line"
+                    >
+                      Sign up for offers, recipes, news & more
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-md-3 p-0 subscribe_container"
+                >
+                  <button
+                    className="subscribe_button btn btn-primary"
+                    disabled={false}
+                    type="button"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-6 followus_right"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-10 offset-md-1"
+              >
+                <h6
+                  className="follow_us_heading"
+                >
+                  Follow Us
+                </h6>
+                <a
+                  href="#"
+                >
+                  <img
+                    src="svg/facebook.svg"
+                    width="50"
+                  />
+                </a>
+                <a
+                  href="#"
+                >
+                  <img
+                    src="svg/twitter.svg"
+                    width="50"
+                  />
+                </a>
+                <a
+                  href="#"
+                >
+                  <img
+                    src="svg/instagram.svg"
+                    width="50"
+                  />
+                </a>
+                <a
+                  href="#"
+                >
+                  <img
+                    src="svg/pinterest.svg"
+                    width="50"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <footer
+    class="footer py-8 py-md-11 @@classList"
+  >
+    <div
+      class="container-lg"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-4"
+        >
+          <h2
+            class="font-family-serif text-white mb-1"
+          >
+            Goodkit
+          </h2>
+          <p
+            class="text-white-60"
+          >
+            A better way to build.
+          </p>
+        </div>
+        <div
+          class="col-1 col-md"
+        >
+          <h6
+            class="text-uppercase text-white mb-3 mb-md-5"
+          >
+            Services
+          </h6>
+          <ul
+            class="list-unstyled"
+          >
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Help Center
+              </a>
+            </li>
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Press
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                About us
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="col-1 col-md"
+        >
+          <h6
+            class="text-uppercase text-white mb-3 mb-md-5"
+          >
+            Products
+          </h6>
+          <ul
+            class="list-unstyled"
+          >
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Homepage
+              </a>
+            </li>
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Pages
+              </a>
+            </li>
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Legal
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Terms
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="col-1 col-md"
+        >
+          <h6
+            class="text-uppercase text-white mb-3 mb-md-5"
+          >
+            Services
+          </h6>
+          <ul
+            class="list-unstyled"
+          >
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Help Center
+              </a>
+            </li>
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                Press
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-white-60"
+                href="#!"
+              >
+                About us
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="col-1 col-md"
+        >
+          <h6
+            class="text-uppercase text-white mb-3 mb-md-5"
+          >
+            Connect
+          </h6>
+          <ul
+            class="list-unstyled"
+          >
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              />
+            </li>
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              />
+            </li>
+            <li
+              class="mb-3"
+            >
+              <a
+                class="text-white-60"
+                href="#!"
+              />
+            </li>
+            <li>
+              <a
+                class="text-white-60"
+                href="#!"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="footer_terms"
+  >
+    <div
+      className="row cover_terms"
+    >
+      <div
+        className="col-1"
+      />
+      <div
+        className="col-5 llc"
+      >
+        @ company name, LLC 2020 | A better way to eat healthy & fresh
+      </div>
+      <div
+        className="col-1"
+      />
+      <div
+        className="col-4 llc"
+      >
+        Do Not "Sell My Info"  
+        <span>
+          <a
+            href="#"
+          >
+            Privacy Policy 
+          </a>
+        </span>
+        <span>
+          <a
+            href="#"
+          >
+             Terms of Use
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;

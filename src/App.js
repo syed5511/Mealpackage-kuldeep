@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 import Layout from "./common_components/layout";
@@ -10,6 +9,7 @@ import SignUpPage from "./pages/signup";
 import ThankYouPage from "./pages/thankyou";
 import OnMenuPage from "./pages/on-menu";
 import useIsMobile from "./utils/useIsMobile";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   const isMobile = useIsMobile();
@@ -19,11 +19,11 @@ const App = () => {
       <Layout>
         <Switch>
           <Route path="/" component={OnMenuPage} exact />
-          <Route path="/confirm-and-pay">
-            <ConfirmAndPayPage isMobile={isMobile} />
-          </Route>
           <Route path="/pricing">
             <PricingPage isMobile={isMobile} isLoading={false} />
+          </Route>
+          <Route path="/confirm-and-pay">
+            <ConfirmAndPayPage isMobile={isMobile} />
           </Route>
           <Route path="/signin">
             <SignInPage isMobile={isMobile} />
