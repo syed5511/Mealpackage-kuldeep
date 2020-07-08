@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThankYou page snapshot 1`] = `
+Array [
+  <div
+    className="sc-fznyAO bGLbWw"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Select Plan
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Sign up
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Checkout
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          Choose your meals
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="sc-Axmtr dRsMPp"
+  >
+    <div
+      className="sc-AxmLO edkcDn"
+    >
+      Your first meal package will expire on 15/10/2020 consume all your 3 meals
+    </div>
+    <div
+      className="sc-fzozJi eJrDzv"
+    >
+      <img
+        alt=""
+        className="sc-fzoLsD gUkpKy"
+        src="/static/images/confirm.png"
+      />
+       Thanks for signing up, Ikram Ul Haq!
+    </div>
+    <button
+      className="sc-AxgMl cWmMji sc-fzpans djCCfE package_button btn btn-primary"
+      disabled={false}
+      type="button"
+    >
+      Place you're first meal order
+       
+    </button>
+  </div>,
+]
+`;
+
+exports[`ThankYou page snapshot 2`] = `
+Array [
+  <div
+    className="sc-fznyAO bGLbWw mobile"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile  whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile  whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile  whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile  whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile  whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile  whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile current whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed mobile current whiteBg"
+          onClick={[Function]}
+        >
+          Choose your meals
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="sc-Axmtr dRsMPp"
+  >
+    <div
+      className="sc-AxmLO edkcDn"
+    >
+      Your first meal package will expire on 15/10/2020 consume all your 3 meals
+    </div>
+    <div
+      className="sc-fzozJi eJrDzv"
+    >
+      <img
+        alt=""
+        className="sc-fzoLsD gUkpKy"
+        src="/static/images/confirm.png"
+      />
+       Thanks for signing up, Ikram Ul Haq!
+    </div>
+    <button
+      className="sc-AxgMl cWmMji sc-fzpans djCCfE package_button btn btn-primary"
+      disabled={false}
+      type="button"
+    >
+      Place you're first meal order
+       
+    </button>
+  </div>,
+]
+`;

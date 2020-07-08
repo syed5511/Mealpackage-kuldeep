@@ -3,12 +3,12 @@ import { node, string, oneOfType } from "prop-types";
 
 import { Container } from "./alert.css";
 
-const Alert = ({ theme, children, className }) => (
-  <Container className={`${theme} ${className}`}>{children}</Container>
+const Alert = ({ theme, children }) => (
+  <Container className={theme}>{children}</Container>
 );
 
 Alert.propTypes = {
-  type: oneOfType([string, node]).isRequired,
+  children: oneOfType([string, node]).isRequired,
   theme: string,
 };
 

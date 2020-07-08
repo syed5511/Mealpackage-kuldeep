@@ -13,8 +13,6 @@ const Menu = ({ menuItems }) => {
     setActive(pathname);
   }, [pathname]);
 
-  console.log("a", active);
-
   return (
     <UL>
       {menuItems.map((item) => (

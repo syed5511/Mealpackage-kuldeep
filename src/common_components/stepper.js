@@ -14,6 +14,7 @@ const Stepper = ({ steps, currentStep, setCurrentStep, isMobile, theme }) => {
 
   const onStepClick = (currentIndex) => {
     if (currentIndex <= completedStep) {
+      console.log("hi");
       setCurrentStep(currentIndex);
     }
   };

@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn page snapshot 1`] = `
+Array [
+  <div
+    className="sc-AxmLO kboaQm"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Select Plan
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Sign up
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          Checkout
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed  current whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq     whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV     whiteBg"
+          onClick={[Function]}
+        >
+          Choose your meals
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="signin-cover"
+    >
+      <div
+        className="signin_heading"
+      >
+        Sign In
+      </div>
+      <div
+        className="signin_text"
+      >
+        Dont have an account? 
+        <a
+          href="#"
+        >
+          Sign up
+        </a>
+      </div>
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-row"
+        >
+          <div
+            className="margin_auto form-group col-md-12"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik03"
+            >
+              Email Address
+            </label>
+            <input
+              className="text_input signin_input form-control"
+              id="validationFormik03"
+              name="email"
+              onChange={[Function]}
+              placeholder="Enter Email Address"
+              type="text"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+        </div>
+        <div
+          className="signin-row form-row"
+        >
+          <div
+            className="margin_auto form-group col-md-12"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik01"
+            >
+              Password
+            </label>
+            <input
+              className="text_input signin_input form-control"
+              id="validationFormik01"
+              name="password"
+              onChange={[Function]}
+              placeholder="Enter Password"
+              type="password"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+        </div>
+        <div
+          className="signin-row form-row"
+        >
+          <div
+            className="margin_auto signin-btn-cover form-group col-md-12"
+          >
+            <button
+              className="sc-AxgMl HnztM package_button signup_button package_button btn btn-primary"
+              disabled={true}
+              type="submit"
+            >
+              Sign In
+               
+              <div
+                className="sc-AxheI jgCUZq"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="forgot_password"
+        >
+          <a
+            href="#"
+          >
+             Forgot your password 
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>,
+]
+`;
+
+exports[`SignIn page snapshot 2`] = `
+Array [
+  <div
+    className="sc-AxmLO kboaQm mobile"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile  whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile  whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile  whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile  whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile current whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed mobile current whiteBg"
+          onClick={[Function]}
+        >
+          Checkout
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile current whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq   mobile  whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="signin-cover"
+    >
+      <div
+        className="signin_heading"
+      >
+        Sign In
+      </div>
+      <div
+        className="signin_text"
+      >
+        Dont have an account? 
+        <a
+          href="#"
+        >
+          Sign up
+        </a>
+      </div>
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-row"
+        >
+          <div
+            className="margin_auto form-group col-md-12"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik03"
+            >
+              Email Address
+            </label>
+            <input
+              className="text_input signin_input form-control"
+              id="validationFormik03"
+              name="email"
+              onChange={[Function]}
+              placeholder="Enter Email Address"
+              type="text"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+        </div>
+        <div
+          className="signin-row form-row"
+        >
+          <div
+            className="margin_auto form-group col-md-12"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik01"
+            >
+              Password
+            </label>
+            <input
+              className="text_input signin_input form-control"
+              id="validationFormik01"
+              name="password"
+              onChange={[Function]}
+              placeholder="Enter Password"
+              type="password"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+        </div>
+        <div
+          className="signin-row form-row"
+        >
+          <div
+            className="margin_auto signin-btn-cover form-group col-md-12"
+          >
+            <button
+              className="sc-AxgMl HnztM package_button signup_button package_button btn btn-primary"
+              disabled={true}
+              type="submit"
+            >
+              Sign In
+               
+              <div
+                className="sc-AxheI jgCUZq"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="forgot_password"
+        >
+          <a
+            href="#"
+          >
+             Forgot your password 
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>,
+]
+`;

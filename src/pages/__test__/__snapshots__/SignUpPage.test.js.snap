@@ -1,0 +1,541 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp page snapshot 1`] = `
+Array [
+  <div
+    className="sc-AxmLO kboaQm"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Select Plan
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          Sign up
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed  current whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq     whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV     whiteBg"
+          onClick={[Function]}
+        >
+          Checkout
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ     whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq     whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV     whiteBg"
+          onClick={[Function]}
+        >
+          Choose your meals
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="offset-lg-3 col-lg-6 offset-md-2 col-md-8 offset-xl-4 col-xl-4 signup-cover"
+    >
+      <div
+        className="signup_heading"
+      >
+        Let’s set up your account
+      </div>
+      <div
+        className="signup_subtext"
+      >
+        You Selected the Free Plan: Get 40,000 Messages for one month
+      </div>
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-row"
+        >
+          <div
+            className="form-group col-md-6"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik01"
+            >
+              First name
+            </label>
+            <input
+              className="text_input form-control"
+              id="validationFormik01"
+              name="firstName"
+              onChange={[Function]}
+              placeholder="First Name"
+              type="text"
+              value="Mark"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+          <div
+            className="form-group col-md-6"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik02"
+            >
+              Last name
+            </label>
+            <input
+              className="text_input form-control"
+              id="validationFormik02"
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+              type="text"
+              value="Otto"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <div
+          className="form-row"
+        >
+          <div
+            className="form-group col-md-8"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik03"
+            >
+              Email
+            </label>
+            <input
+              className="text_input form-control"
+              id="validationFormik03"
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              type="text"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+          <div
+            className="zip form-group col-md-4"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik05"
+            >
+              Zip
+            </label>
+            <input
+              className="text_input form-control"
+              id="validationFormik05"
+              name="zip"
+              onChange={[Function]}
+              placeholder="Zip"
+              type="text"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+        </div>
+        <div
+          className="form-row"
+        >
+          <div
+            className="form-group col-md-6"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik01"
+            >
+              Password
+            </label>
+            <input
+              className="text_input form-control"
+              id="validationFormik01"
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value="Mark"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+          <div
+            className="form-group col-md-6"
+          >
+            <label
+              className="form-label"
+              htmlFor="validationFormik02"
+            >
+              Retype Password
+            </label>
+            <input
+              className="text_input form-control"
+              id="validationFormik02"
+              name="retypePassword"
+              onChange={[Function]}
+              placeholder="Retype Password"
+              type="password"
+              value="Otto"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <button
+          className="sc-AxgMl HnztM package_button signup_button package_button btn btn-primary"
+          disabled={true}
+          type="submit"
+        >
+          Create My Account
+           
+          <div
+            className="sc-AxheI jgCUZq"
+          />
+        </button>
+        <div
+          className="privacy"
+        >
+          By signing up, you agree to Instructs
+          <a
+            href="#"
+          >
+             Terms of Service 
+          </a>
+           and
+          <a
+            href="#"
+          >
+             Privacy Policy 
+          </a>
+        </div>
+        <div
+          className="already_account"
+        >
+          Already have an account? 
+          <a
+            href="#"
+          >
+             Login 
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>,
+]
+`;
+
+exports[`SignUp page snapshot 2`] = `
+Array [
+  <div
+    className="sc-AxmLO kboaQm mobile"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile  whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile  whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed mobile current whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed mobile current whiteBg"
+          onClick={[Function]}
+        >
+          Sign up
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed mobile current whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq   mobile  whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ   mobile  whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq   mobile  whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="offset-lg-3 col-lg-6 offset-md-2 col-md-8 offset-xl-4 col-xl-4 signup-cover"
+    >
+      <div
+        className="signup_heading"
+      >
+        Let’s set up your account
+      </div>
+      <div
+        className="signup_subtext"
+      >
+        You Selected the Free Plan: Get 40,000 Messages for one month
+      </div>
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-row"
+        >
+          <div
+            className="form-group col-md-6"
+          >
+            <input
+              className="text_input form-control"
+              id="validationFormik01"
+              name="firstName"
+              onChange={[Function]}
+              placeholder="First Name"
+              type="text"
+              value="Mark"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+          <div
+            className="form-group col-md-6"
+          >
+            <input
+              className="text_input form-control"
+              id="validationFormik02"
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+              type="text"
+              value="Otto"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <div
+          className="form-row"
+        >
+          <div
+            className="form-group col-md-8"
+          >
+            <input
+              className="text_input form-control"
+              id="validationFormik03"
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              type="text"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+          <div
+            className="zip form-group col-md-4"
+          >
+            <input
+              className="text_input form-control"
+              id="validationFormik05"
+              name="zip"
+              onChange={[Function]}
+              placeholder="Zip"
+              type="text"
+            />
+            <div
+              className="invalid-feedback"
+            />
+          </div>
+        </div>
+        <div
+          className="form-row"
+        >
+          <div
+            className="form-group col-md-6"
+          >
+            <input
+              className="text_input form-control"
+              id="validationFormik01"
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value="Mark"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+          <div
+            className="form-group col-md-6"
+          >
+            <input
+              className="text_input form-control"
+              id="validationFormik02"
+              name="retypePassword"
+              onChange={[Function]}
+              placeholder="Retype Password"
+              type="password"
+              value="Otto"
+            />
+            <div
+              className="valid-feedback"
+            >
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <button
+          className="sc-AxgMl HnztM package_button signup_button package_button btn btn-primary"
+          disabled={true}
+          type="submit"
+        >
+          Create My Account
+           
+          <div
+            className="sc-AxheI jgCUZq"
+          />
+        </button>
+        <div
+          className="privacy"
+        >
+          By signing up, you agree to Instructs
+          <a
+            href="#"
+          >
+             Terms of Service 
+          </a>
+           and
+          <a
+            href="#"
+          >
+             Privacy Policy 
+          </a>
+        </div>
+        <div
+          className="already_account"
+        >
+          Already have an account? 
+          <a
+            href="#"
+          >
+             Login 
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>,
+]
+`;

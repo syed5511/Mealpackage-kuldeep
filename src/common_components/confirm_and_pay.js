@@ -221,9 +221,7 @@ export default function ConfirmAndPay({ isMobile, isLoading }) {
     isLoading ? (
       <Skeleton height="45px" width="100%" style={{ marginBottom: 12 }} />
     ) : (
-      <Alert className="mid-space">
-        You will receive future plan at $59.94 with 3 meals
-      </Alert>
+      <Alert>You will receive future plan at $59.94 with 3 meals</Alert>
     );
   return (
     <div className="confirm_container">

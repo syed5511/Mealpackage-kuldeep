@@ -75,7 +75,7 @@ export default function Signin() {
                       name="password"
                       placeholder="Enter Password"
                       className="text_input signin_input"
-                      onChange={handleChange}
+                      onChange={(e) => console.log(e)}
                       isInvalid={!!errors.password}
                     />
                     <Form.Control.Feedback type="invalid">

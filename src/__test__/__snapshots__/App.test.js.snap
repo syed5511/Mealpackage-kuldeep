@@ -25,7 +25,7 @@ Array [
           >
             <a
               aria-current="page"
-              className=""
+              className="active"
               href="/"
               onClick={[Function]}
               style={Object {}}
@@ -205,7 +205,7 @@ Array [
         >
           <a
             aria-current="page"
-            className=""
+            className="active"
             href="/"
             onClick={[Function]}
             style={Object {}}
@@ -308,7 +308,10 @@ Array [
     </div>
   </header>,
   <div>
-    On Menu Page
+    On Menu Page 
+    <button
+      onClick={[Function]}
+    />
   </div>,
   <div
     className="followus_container"

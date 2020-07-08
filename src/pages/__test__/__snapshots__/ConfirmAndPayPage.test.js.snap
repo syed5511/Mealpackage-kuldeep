@@ -1,0 +1,966 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirm and pay page snapshot 1`] = `
+Array [
+  <div
+    className="sc-fznKkj cZZHlV"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Select Plan
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Sign up
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          Checkout
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed  current whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq     whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV     whiteBg"
+          onClick={[Function]}
+        >
+          Choose your meals
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="confirm_container"
+  >
+    <div
+      className="confirm_text"
+    >
+      Almost there! So close you can almost taste it!
+    </div>
+    <div
+      className="row cover-row"
+    >
+      <div
+        className="col-md-8"
+      >
+        <div
+          className="sc-fzoLsD ktwpyP blue"
+        >
+          You will receive future plan at $59.94 with 3 meals
+        </div>
+        <form
+          className=""
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <div
+            className="order_form"
+          >
+            <h4>
+              Where do you want your Delivery
+            </h4>
+            <div
+              className="form-row"
+            >
+              <div
+                className="form-group col-md-8"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="validationFormik01"
+                >
+                  Address
+                </label>
+                <input
+                  className="text_input form-control"
+                  id="validationFormik01"
+                  name="address"
+                  onChange={[Function]}
+                  placeholder="Enter address"
+                  type="text"
+                />
+                <div
+                  className="valid-feedback"
+                >
+                  Looks good!
+                </div>
+              </div>
+              <div
+                className="zip zero-margin form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="validationFormik01"
+                >
+                  Zip code
+                </label>
+                <input
+                  className="text_input form-control"
+                  id="validationFormik01"
+                  name="zipcode"
+                  onChange={[Function]}
+                  placeholder="Enter zip code"
+                  type="text"
+                />
+                <div
+                  className="valid-feedback"
+                >
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div
+              className="form-row"
+            >
+              <div
+                className="zip form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGridState"
+                >
+                  State
+                </label>
+                <select
+                  className="custom-select"
+                  id="formGridState"
+                  value="Select State"
+                >
+                  <option>
+                    Select State
+                  </option>
+                  <option>
+                    ...
+                  </option>
+                </select>
+              </div>
+              <div
+                className="zip form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGridState"
+                >
+                  City
+                </label>
+                <select
+                  className="custom-select"
+                  id="formGridState"
+                  value="Select City"
+                >
+                  <option>
+                    Select City
+                  </option>
+                  <option>
+                    ...
+                  </option>
+                </select>
+              </div>
+              <div
+                className="zip zero-margin form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGridState"
+                >
+                  Address type
+                </label>
+                <select
+                  className="custom-select"
+                  id="formGridState"
+                  value="Address Type"
+                >
+                  <option>
+                    Address Type
+                  </option>
+                  <option>
+                    ...
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div
+            className="order_form mt-4 promo-container"
+          >
+            <div
+              className="promo-cover form-row"
+            >
+              <div
+                className="col-md-3 col-5 discount_heading"
+              >
+                Discount Code
+              </div>
+              <div
+                className="col-md-7 col-7 promoBox"
+              >
+                <div
+                  className="form-group col-md-12"
+                >
+                  <input
+                    className="text_input form-control"
+                    id="validationFormik01"
+                    name="discount_code"
+                    onChange={[Function]}
+                    type="text"
+                  />
+                  <div
+                    className="valid-feedback"
+                  >
+                    Looks good!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="order_form mt-4"
+          >
+            <div
+              className="sc-AxgMl USVug"
+            >
+              <form
+                onSubmit={[Function]}
+              >
+                <label
+                  className="sc-AxheI iyRUdJ"
+                  for="card-element"
+                >
+                  Enter Card Detail
+                </label>
+                <div
+                  id="card-element"
+                />
+                <div
+                  className="sc-Axmtr gimUVd card-errors"
+                  role="alert"
+                />
+              </form>
+            </div>
+            <div
+              className="note"
+            >
+              Skip or cancel any time
+            </div>
+            <button
+              className="sc-AxmLO jRHxtO  package_button btn btn-primary"
+              disabled={false}
+              type="submit"
+            >
+              PLACE ORDER & CHOOSE MEAL
+               
+            </button>
+          </div>
+          <div
+            className="order_form mt-4 tnc_checkout"
+          >
+            <div
+              className="sc-fzpans jKrUSg"
+            >
+              By clicking "Place Order & Choose Meals", you agree you are purchasing a continuous subscription and will receive weekly deliveries billed to your designated payment method until you cancel. Pricing is based on your plan choices available in your Plan Settings page and is subject to change. You may cancel your subscription online at any time by emailing cancellations@companyname.com and following the instructions in our response. Any orders identified as "Processing" or "Shipped" on your Upcoming page, however, cannot be cancelled. For more information see our Terms of Use and FAQs.
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        className="col-md-4 order_summary"
+      >
+        <h4>
+          Order Summary
+        </h4>
+        <div
+          className="p-10 summary_container"
+        >
+          <div>
+            Email
+          </div>
+          Syedhaq1122@gmail.com
+        </div>
+        <div
+          className="p-10 summary_container"
+        >
+          <div>
+            Package
+          </div>
+          2 Person - 3 Meals
+        </div>
+        <div
+          className="p-10 summary_container"
+        >
+          <div>
+            Complementary Meals
+          </div>
+          3 Meals
+        </div>
+        <div
+          className="total"
+        >
+          Sub Total 
+          <span
+            className="right"
+          >
+            $59.94
+          </span>
+          <div
+            className="green"
+          >
+            Shipping
+             
+            <span
+              className="right"
+            >
+              <b>
+                Free
+              </b>
+            </span>
+          </div>
+          <div>
+            Total meals 
+            <span
+              className="right"
+            >
+              6
+            </span>
+          </div>
+          <div>
+            Est. tax 
+            <span
+              className="right"
+            >
+              $0.00
+            </span>
+          </div>
+          <div>
+            <b>
+              Total 
+              <span
+                className="right"
+              >
+                $59.94
+              </span>
+            </b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Confirm and pay page snapshot 2`] = `
+Array [
+  <div
+    className="sc-fznKkj cZZHlV"
+  >
+    <div
+      className="sc-AxjAm jhiTqR"
+    >
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Select Plan
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed   whiteBg"
+          onClick={[Function]}
+        >
+          Sign up
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed   whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV stepCompleted completed  current whiteBg"
+          onClick={[Function]}
+        >
+          Checkout
+        </div>
+        <div
+          className="sc-AxhUy iRPRoQ stepCompleted completed  current whiteBg"
+        />
+      </div>
+      <div
+        className="sc-AxirZ bnSjNE"
+      >
+        <div
+          className="sc-AxiKw kNTLLq     whiteBg"
+          onClick={[Function]}
+        >
+          4
+        </div>
+        <div
+          className="sc-AxhCb hUrkqV     whiteBg"
+          onClick={[Function]}
+        >
+          Choose your meals
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="confirm_container"
+  >
+    <div
+      className="confirm_text"
+    >
+      Almost there! So close you can almost taste it!
+    </div>
+    <div
+      className="row cover-row"
+    >
+      <div
+        className="col-md-8"
+      >
+        <div
+          className="sc-fzplWN iOGXem rect"
+          height="45px"
+          style={
+            Object {
+              "marginBottom": 12,
+            }
+          }
+          width="100%"
+        />
+        <form
+          className=""
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <div
+            className="order_form"
+          >
+            <h4>
+              Where do you want your Delivery
+            </h4>
+            <div
+              className="form-row"
+            >
+              <div
+                className="form-group col-md-8"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="validationFormik01"
+                >
+                  Address
+                </label>
+                <input
+                  className="text_input form-control"
+                  id="validationFormik01"
+                  name="address"
+                  onChange={[Function]}
+                  placeholder="Enter address"
+                  type="text"
+                />
+                <div
+                  className="valid-feedback"
+                >
+                  Looks good!
+                </div>
+              </div>
+              <div
+                className="zip zero-margin form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="validationFormik01"
+                >
+                  Zip code
+                </label>
+                <input
+                  className="text_input form-control"
+                  id="validationFormik01"
+                  name="zipcode"
+                  onChange={[Function]}
+                  placeholder="Enter zip code"
+                  type="text"
+                />
+                <div
+                  className="valid-feedback"
+                >
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div
+              className="form-row"
+            >
+              <div
+                className="zip form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGridState"
+                >
+                  State
+                </label>
+                <select
+                  className="custom-select"
+                  id="formGridState"
+                  value="Select State"
+                >
+                  <option>
+                    Select State
+                  </option>
+                  <option>
+                    ...
+                  </option>
+                </select>
+              </div>
+              <div
+                className="zip form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGridState"
+                >
+                  City
+                </label>
+                <select
+                  className="custom-select"
+                  id="formGridState"
+                  value="Select City"
+                >
+                  <option>
+                    Select City
+                  </option>
+                  <option>
+                    ...
+                  </option>
+                </select>
+              </div>
+              <div
+                className="zip zero-margin form-group col-md-4"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formGridState"
+                >
+                  Address type
+                </label>
+                <select
+                  className="custom-select"
+                  id="formGridState"
+                  value="Address Type"
+                >
+                  <option>
+                    Address Type
+                  </option>
+                  <option>
+                    ...
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div
+            className="order_form mt-4 promo-container"
+          >
+            <div
+              className="promo-cover form-row"
+            >
+              <div
+                className="col-md-3 col-5 discount_heading"
+              >
+                Discount Code
+              </div>
+              <div
+                className="col-md-7 col-7 promoBox"
+              >
+                <div
+                  className="form-group col-md-12"
+                >
+                  <input
+                    className="text_input form-control"
+                    id="validationFormik01"
+                    name="discount_code"
+                    onChange={[Function]}
+                    type="text"
+                  />
+                  <div
+                    className="valid-feedback"
+                  >
+                    Looks good!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="order_form mt-4"
+          >
+            <div
+              className="sc-AxgMl USVug"
+            >
+              <form
+                onSubmit={[Function]}
+              >
+                <label
+                  className="sc-AxheI iyRUdJ"
+                  for="card-element"
+                >
+                  Enter Card Detail
+                </label>
+                <div
+                  id="card-element"
+                />
+                <div
+                  className="sc-Axmtr gimUVd card-errors"
+                  role="alert"
+                />
+              </form>
+            </div>
+            <div
+              className="note"
+            >
+              Skip or cancel any time
+            </div>
+            <button
+              className="sc-AxmLO jRHxtO  package_button btn btn-primary"
+              disabled={false}
+              type="submit"
+            >
+              PLACE ORDER & CHOOSE MEAL
+               
+            </button>
+          </div>
+          <div
+            className="order_form mt-4 tnc_checkout"
+          >
+            <div
+              className="sc-fzpans jKrUSg"
+            >
+              By clicking "Place Order & Choose Meals", you agree you are purchasing a continuous subscription and will receive weekly deliveries billed to your designated payment method until you cancel. Pricing is based on your plan choices available in your Plan Settings page and is subject to change. You may cancel your subscription online at any time by emailing cancellations@companyname.com and following the instructions in our response. Any orders identified as "Processing" or "Shipped" on your Upcoming page, however, cannot be cancelled. For more information see our Terms of Use and FAQs.
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        className="col-md-4 order_summary"
+      >
+        <h4>
+          Order Summary
+        </h4>
+        <div
+          className="p-10 summary_container"
+        >
+          <div>
+            <div
+              className="sc-fzplWN iiibhB rect"
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": 8,
+                }
+              }
+              width="140px"
+            />
+          </div>
+          <div
+            className="sc-fzplWN eCdyJH rect"
+            height="16px"
+            style={
+              Object {
+                "marginBottom": 16,
+              }
+            }
+            width="240px"
+          />
+        </div>
+        <div
+          className="p-10 summary_container"
+        >
+          <div>
+            <div
+              className="sc-fzplWN jkFiRA rect"
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": 8,
+                }
+              }
+              width="160px"
+            />
+          </div>
+          <div
+            className="sc-fzplWN eWUDCS rect"
+            height="16px"
+            style={
+              Object {
+                "marginBottom": 16,
+              }
+            }
+            width="200px"
+          />
+        </div>
+        <div
+          className="p-10 summary_container"
+        >
+          <div>
+            <div
+              className="sc-fzplWN fMruyT rect"
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": 8,
+                }
+              }
+              width="180px"
+            />
+          </div>
+          <div
+            className="sc-fzplWN iiibhB rect"
+            height="16px"
+            style={
+              Object {
+                "marginBottom": 16,
+              }
+            }
+            width="140px"
+          />
+        </div>
+        <div
+          className="total"
+        >
+          <div
+            className="sc-fzplWN jcKkUt rect"
+            height="16px"
+            style={
+              Object {
+                "display": "inline-block",
+                "marginBottom": 4,
+              }
+            }
+            width="80px"
+          />
+           
+          <span
+            className="right"
+          >
+            <div
+              className="sc-fzplWN jcKkUt rect"
+              height="16px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "marginBottom": 4,
+                }
+              }
+              width="80px"
+            />
+          </span>
+          <div
+            className="green"
+          >
+            <div
+              className="sc-fzplWN jcKkUt rect"
+              height="16px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "marginBottom": 4,
+                }
+              }
+              width="80px"
+            />
+             
+            <span
+              className="right"
+            >
+              <b>
+                <div
+                  className="sc-fzplWN jcKkUt rect"
+                  height="16px"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "marginBottom": 4,
+                    }
+                  }
+                  width="80px"
+                />
+              </b>
+            </span>
+          </div>
+          <div>
+            <div
+              className="sc-fzplWN jcKkUt rect"
+              height="16px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "marginBottom": 4,
+                }
+              }
+              width="80px"
+            />
+             
+            <span
+              className="right"
+            >
+              <div
+                className="sc-fzplWN jcKkUt rect"
+                height="16px"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "marginBottom": 4,
+                  }
+                }
+                width="80px"
+              />
+            </span>
+          </div>
+          <div>
+            <div
+              className="sc-fzplWN jcKkUt rect"
+              height="16px"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "marginBottom": 4,
+                }
+              }
+              width="80px"
+            />
+             
+            <span
+              className="right"
+            >
+              <div
+                className="sc-fzplWN jcKkUt rect"
+                height="16px"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "marginBottom": 4,
+                  }
+                }
+                width="80px"
+              />
+            </span>
+          </div>
+          <div>
+            <b>
+              <div
+                className="sc-fzplWN jcKkUt rect"
+                height="16px"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "marginBottom": 4,
+                  }
+                }
+                width="80px"
+              />
+               
+              <span
+                className="right"
+              >
+                <div
+                  className="sc-fzplWN jcKkUt rect"
+                  height="16px"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "marginBottom": 4,
+                    }
+                  }
+                  width="80px"
+                />
+              </span>
+            </b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

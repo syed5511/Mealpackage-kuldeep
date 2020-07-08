@@ -1,10 +1,25 @@
 import React from "react";
-import ReactTestRenderer from "react-test-renderer";
+import { create, act } from "react-test-renderer";
 
-const getSnapShot = (Component, props = {}) => {
-  const component = ReactTestRenderer.create(<Component {...props} />);
-  const json = component.toJSON();
+const matchSnapShot = (json) => {
   expect(json).toMatchSnapshot();
+};
+
+const getSnapShot = (Component) => {
+  let component;
+  return (props = {}, type = "c") => {
+    if (type === "c") {
+      act(() => {
+        component = create(<Component {...props} />);
+      });
+    } else {
+      act(() => {
+        component.update(<Component {...props} />);
+      });
+    }
+    matchSnapShot(component.toJSON());
+    return component;
+  };
 };
 
 export default getSnapShot;
