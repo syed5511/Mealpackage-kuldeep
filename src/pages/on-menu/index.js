@@ -1,11 +1,8 @@
 import React from "react";
 
+import OnMenuFooter from "../../common_components/on_menu_footer";
 const OnMenuPage = () => {
-  return (
-    <div>
-      On Menu Page <button onClick={() => 2}></button>
-    </div>
-  );
+  return <OnMenuFooter />;
 };
 
 export default OnMenuPage;
