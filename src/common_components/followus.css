@@ -4,6 +4,10 @@
   box-shadow: 0 30px 30px 10px #675f5f;
   margin-top: 100px;
 }
+.followus_container .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .followus_content {
   margin-top: 30px;
   margin-bottom: 15px;

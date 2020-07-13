@@ -93,6 +93,7 @@
 * {
   font-family: Roboto Regular;
   letter-spacing: 0px;
+  box-sizing: border-box;
 }
 
 body {

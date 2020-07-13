@@ -256,8 +256,8 @@
 
 @media (max-width: 768px) {
   .simple_healthy {
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 14px !important;
+    font-weight: normal !important;
     line-height: 16px;
     width: 72%;
     margin: auto;

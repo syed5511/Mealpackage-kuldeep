@@ -14,6 +14,10 @@
   .footer_terms {
     padding: 16px 8px;
   }
+  .footer_terms .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .footer_terms:before {
     content: "";
     position: absolute;
