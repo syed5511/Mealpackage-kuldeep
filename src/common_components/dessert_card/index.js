@@ -12,7 +12,7 @@ import {
   AddAction,
 } from "./styles";
 
-const FoodItemCard = () => {
+const DessertCard = () => {
   return (
     <Container>
       <Content />
@@ -33,4 +33,4 @@ const FoodItemCard = () => {
   );
 };
 
-export default FoodItemCard;
+export default DessertCard;
