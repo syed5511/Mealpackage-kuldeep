@@ -8,11 +8,14 @@ import SignInPage from "./pages/signin";
 import SignUpPage from "./pages/signup";
 import ThankYouPage from "./pages/thankyou";
 import OnMenuPage from "./pages/on-menu";
+// import NoInternet from "./common_components/no_internet";
 import useIsMobile from "./utils/useIsMobile";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   const isMobile = useIsMobile();
+
+  // return <NoInternet isMobile={isMobile} />;
 
   return (
     <Router>

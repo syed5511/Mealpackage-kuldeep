@@ -40,7 +40,7 @@ export const Drawer = styled.div`
   z-index: 2;
   transition: 0.4s all ease-in-out;
   &.show {
-    bottom: 48px;
+    bottom: 68px;
   }
 `;
 

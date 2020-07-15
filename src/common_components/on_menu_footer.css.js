@@ -9,8 +9,9 @@ export const Container = styled.div`
   left: 0;
   background-color: #fff;
   align-items: center;
-  border-top: 1px solid #e1e1e8;
-  height: 48px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 68px;
+  padding: 10px 0;
 
   & > div {
     display: flex;
@@ -24,42 +25,26 @@ export const Cover = styled.div``;
 
 export const MainMenu = styled.div`
   position: relative;
-  min-height: 48px;
+  height: 100%;
   background-color: #fff;
   padding: 0;
   position: relative;
 `;
 
 export const Icon = styled.img`
-  max-height: 20px;
+  max-height: 30px;
   &.big {
-    max-height: 55px;
+    max-height: inherit;
+    height: 74px;
     z-index: 1;
     position: absolute;
-    bottom: 2px;
+    bottom: 12px;
   }
 `;
 
 export const A = styled.a`
-  font-size: 10px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   color: #140f26;
-`;
-
-export const RoundedShape = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  top: -28px;
-  left: 0;
-  @media (min-width: 780px) {
-    top: -25px;
-  }
-  svg {
-    width: 100%;
-    fill: #fff;
-    stroke: #e7e7e7;
-    stroke-width: 0.5px;
-  }
+  margin-top: 2px;
 `;

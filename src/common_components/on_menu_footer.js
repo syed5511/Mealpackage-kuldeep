@@ -9,7 +9,7 @@ import {
   RoundedShape,
 } from "./on_menu_footer.css";
 
-const OnMenuFooter = () => {
+const OnMenuFooter = ({ onIconClick }) => {
   const renderMenuItem = (icon, text) => {
     return (
       <Cover>
@@ -20,26 +20,16 @@ const OnMenuFooter = () => {
   };
   return (
     <Container>
-      {renderMenuItem("/static/images/on-menu.gif", "On the menu")}
+      {renderMenuItem("/static/images/on-menu-icon.png", "On the menu")}
       <MainMenu>
         <Icon
           className="big"
-          src="/static/images/restaurant@2x.png"
+          src="/static/images/mobile-main-nav-icon.png"
           alt="main menu"
+          onClick={onIconClick}
         />
-        <RoundedShape>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="10 10 45 15"
-            width="64"
-            height="64"
-            fill="#29a7e8"
-          >
-            <path d="M12 24 L52 24 L52 16 C40 16 42 10 32 10 C24 10 22 16 12 16 Z" />
-          </svg>
-        </RoundedShape>
       </MainMenu>
-      {renderMenuItem("/static/images/on-menu.gif", "Pricing Plan")}
+      {renderMenuItem("/static/images/pricing-plan-icon.png", "Pricing Plan")}
     </Container>
   );
 };

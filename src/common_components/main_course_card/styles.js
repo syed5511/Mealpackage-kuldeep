@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  min-width: 352px;
   border: 1px solid #e1dede;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  margin: 0 8px 8px;
+  margin: 8px;
   @media (max-width: 780px) {
     min-width: auto;
     width: 100%;

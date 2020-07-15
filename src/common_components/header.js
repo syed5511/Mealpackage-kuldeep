@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Menu from "./menu";
 import LoginAction from "./login_action";
 import LocationShow from "./location_show";
+import MobileLocationTime from "./mobile_location_time";
 import Popover from "./popover";
 import {
   Container,
@@ -15,6 +16,7 @@ import {
   MobileNav,
   LoggedInUser,
   Close,
+  LogoTempText,
 } from "./header.css";
 
 const Header = ({ isMobile, menuItems, isLogin }) => {
@@ -58,15 +60,17 @@ const Header = ({ isMobile, menuItems, isLogin }) => {
       }}
     >
       {[1, 2, 3].map((item) => (
-        <Line key={item} />
+        <Line key={item} index={item} />
       ))}
     </Hamburg>
   );
   return (
     <Container>
       <Left>
-        <Logo src="/logo.png" alt="" />
+        {/* <Logo src="" alt="Logo" /> */}
+        <LogoTempText>Logo</LogoTempText>
         {!isMobile && <Middle>{renderLocation()}</Middle>}
+        {isMobile && <MobileLocationTime />}
         {renderHamburg()}
       </Left>
       <Right>{!isMobile ? renderLogin() : "---"}</Right>

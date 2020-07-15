@@ -8,15 +8,21 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   @media (min-width: 1124px) and (max-width: 1248px) {
-    padding: 0 72px;
+    padding: 0 48px;
+    height: 48px;
   }
   @media (max-width: 1124px) {
-    padding: 0 32px;
+    padding: 0 20px;
+    height: 40px;
   }
 `;
 
 export const Logo = styled.img`
   max-height: 42px;
+`;
+
+export const LogoTempText = styled.div`
+  color: #fff;
 `;
 
 export const Left = styled.div`
@@ -55,14 +61,29 @@ export const Hamburg = styled.div`
     flex-direction: column;
     cursor: pointer;
     &:hover div {
-      border-top: 1px solid #eeab5d;
+      border: 2px solid #eeab5d;
     }
   }
 `;
 
 export const Line = styled.div`
-  border-top: 1px solid #fff;
-  margin-bottom: 8px;
+  border: 2px solid #fff;
+  margin-bottom: 4px;
+  ${({ index }) => {
+    if (index === 1) {
+      return `
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    `;
+    }
+    if (index === 2) {
+      return `border-radius: 2px;`;
+    }
+    return `
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  `;
+  }}
   &:last-child {
     margin-bottom: 0;
   }
@@ -72,7 +93,7 @@ export const MobileNav = styled.div`
   position: fixed;
   right: -280px;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   &.show {
@@ -82,7 +103,7 @@ export const MobileNav = styled.div`
   height: 100vh;
   max-width: 280px;
   padding: 40px 0;
-  transition: 0.4s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 `;
 
 export const LoggedInUser = styled.div`
