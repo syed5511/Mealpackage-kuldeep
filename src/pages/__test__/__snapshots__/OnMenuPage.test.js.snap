@@ -1,10 +1,756 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OnMenu page snapshot 1`] = `
-<div>
-  On Menu Page 
-  <button
-    onClick={[Function]}
-  />
+<div
+  className="sc-fzoXWK SjWRU"
+>
+  <div
+    className="sc-fzolEj iBXheB"
+  >
+    <div
+      className="sc-fzqBkg likcLt"
+    >
+      <div
+        className="sc-fzqPZZ cOlaPn"
+      />
+      <div
+        className="sc-fzoxKX knkUkw"
+      >
+        <div
+          className="sc-fzoKki jQjEqY"
+        >
+          Delivery before
+        </div>
+        <div
+          className="sc-fzoKki sc-fzoYkl hAAHPW"
+        >
+          01:30 pm
+        </div>
+      </div>
+    </div>
+    <div
+      id="slot-container"
+    >
+      <div
+        className="chip active"
+        onClick={[Function]}
+      >
+        <div
+          className="day"
+        >
+          Tuesday
+        </div>
+        <div
+          className="month"
+        >
+          04
+           
+          August
+        </div>
+      </div>
+      <div
+        className="chip"
+        onClick={[Function]}
+      >
+        <div
+          className="day"
+        >
+          Wednesday
+        </div>
+        <div
+          className="month"
+        >
+          05
+           
+          August
+        </div>
+      </div>
+      <div
+        className="chip"
+        onClick={[Function]}
+      >
+        <div
+          className="day"
+        >
+          Thursday
+        </div>
+        <div
+          className="month"
+        >
+          06
+           
+          August
+        </div>
+      </div>
+      <div
+        className="chip"
+        onClick={[Function]}
+      >
+        <div
+          className="day"
+        >
+          Friday
+        </div>
+        <div
+          className="month"
+        >
+          07
+           
+          August
+        </div>
+      </div>
+      <div
+        className="chip"
+        onClick={[Function]}
+      >
+        <div
+          className="day"
+        >
+          Saturday
+        </div>
+        <div
+          className="month"
+        >
+          08
+           
+          August
+        </div>
+      </div>
+      <div
+        className="chip"
+        onClick={[Function]}
+      >
+        <div
+          className="day"
+        >
+          Sunday
+        </div>
+        <div
+          className="month"
+        >
+          09
+           
+          August
+        </div>
+      </div>
+      <div
+        className="chip"
+        onClick={[Function]}
+      >
+        <div
+          className="day"
+        >
+          Monday
+        </div>
+        <div
+          className="month"
+        >
+          10
+           
+          August
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-fzpkJw blxfCg"
+    >
+      <img
+        alt=""
+        className="sc-fznzOf bEDrNm"
+        src="/static/images/alert.gif"
+      />
+      <div
+        className="sc-fznMnq gLWMQm"
+      >
+        You're meal plan allow you to add 2 main course
+      </div>
+    </div>
+  </div>
+  <h2
+    className="sc-fznMAR dJhqKN"
+  >
+    Main Course
+  </h2>
+  <div
+    className="sc-fzpmMD bdRqDJ"
+  >
+    <div
+      className="sc-fznWOq cNmOoH"
+    >
+      <div
+        className="sc-AxgMl kVtSnb"
+      >
+        <div
+          className="sc-AxheI hPupJO"
+        />
+        <div
+          className="sc-Axmtr eTHKAo"
+        >
+          <div
+            className="sc-AxmLO bKuMBO"
+          >
+            <h3
+              className="sc-fzozJi eLViQz"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoLsD bcqRGE"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzpans kOqDuY"
+            >
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fznyAO nBwiV"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-AxgMl kVtSnb"
+      >
+        <div
+          className="sc-AxheI hPupJO"
+        />
+        <div
+          className="sc-Axmtr eTHKAo"
+        >
+          <div
+            className="sc-AxmLO bKuMBO"
+          >
+            <h3
+              className="sc-fzozJi eLViQz"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoLsD bcqRGE"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzpans kOqDuY"
+            >
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fznyAO nBwiV"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-AxgMl kVtSnb"
+      >
+        <div
+          className="sc-AxheI hPupJO"
+        />
+        <div
+          className="sc-Axmtr eTHKAo"
+        >
+          <div
+            className="sc-AxmLO bKuMBO"
+          >
+            <h3
+              className="sc-fzozJi eLViQz"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoLsD bcqRGE"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzpans kOqDuY"
+            >
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fznyAO nBwiV"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-AxgMl kVtSnb"
+      >
+        <div
+          className="sc-AxheI hPupJO"
+        />
+        <div
+          className="sc-Axmtr eTHKAo"
+        >
+          <div
+            className="sc-AxmLO bKuMBO"
+          >
+            <h3
+              className="sc-fzozJi eLViQz"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoLsD bcqRGE"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzpans kOqDuY"
+            >
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fznyAO nBwiV"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-AxgMl kVtSnb"
+      >
+        <div
+          className="sc-AxheI hPupJO"
+        />
+        <div
+          className="sc-Axmtr eTHKAo"
+        >
+          <div
+            className="sc-AxmLO bKuMBO"
+          >
+            <h3
+              className="sc-fzozJi eLViQz"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoLsD bcqRGE"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzpans kOqDuY"
+            >
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+              <div
+                className="sc-fzplWN jOIzny"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fznyAO nBwiV"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-fznxKY kVlWJz"
+    >
+      <div
+        className="sc-fznxsB hiqBwi"
+      >
+        <img
+          alt=""
+          className="sc-fznJRM hsSsAF"
+          src="/static/images/cooking.png"
+        />
+        <h3
+          className="sc-fznWqX hklZQS"
+        >
+          Your Cart is Empty
+        </h3>
+        <p
+          className="sc-fzoiQi hXSiVe"
+        >
+          Good food is always cooking! Go ahead, order some yummy items from the menu.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-fzpmMD bdRqDJ dessert"
+  >
+    <h2
+      className="sc-fznMAR dJhqKN dessert"
+    >
+      Desserts & Salads
+    </h2>
+    <div
+      className="sc-fznWOq cNmOoH dessert"
+    >
+      <div
+        className="sc-fznKkj hfZVzU"
+      >
+        <div
+          className="sc-fznZeY dYAVtX"
+        />
+        <div
+          className="sc-fzokOt dzHmKm"
+        >
+          <div
+            className="sc-fzqBZW bSjncH"
+          >
+            <h3
+              className="sc-fzqNJr bJBgbC"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoyAV jWpeml"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzoLag bkLbgZ"
+            >
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fzpjYC ktwqAX"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-fznKkj hfZVzU"
+      >
+        <div
+          className="sc-fznZeY dYAVtX"
+        />
+        <div
+          className="sc-fzokOt dzHmKm"
+        >
+          <div
+            className="sc-fzqBZW bSjncH"
+          >
+            <h3
+              className="sc-fzqNJr bJBgbC"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoyAV jWpeml"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzoLag bkLbgZ"
+            >
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fzpjYC ktwqAX"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-fznKkj hfZVzU"
+      >
+        <div
+          className="sc-fznZeY dYAVtX"
+        />
+        <div
+          className="sc-fzokOt dzHmKm"
+        >
+          <div
+            className="sc-fzqBZW bSjncH"
+          >
+            <h3
+              className="sc-fzqNJr bJBgbC"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoyAV jWpeml"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzoLag bkLbgZ"
+            >
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fzpjYC ktwqAX"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-fznKkj hfZVzU"
+      >
+        <div
+          className="sc-fznZeY dYAVtX"
+        />
+        <div
+          className="sc-fzokOt dzHmKm"
+        >
+          <div
+            className="sc-fzqBZW bSjncH"
+          >
+            <h3
+              className="sc-fzqNJr bJBgbC"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoyAV jWpeml"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzoLag bkLbgZ"
+            >
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fzpjYC ktwqAX"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-fznKkj hfZVzU"
+      >
+        <div
+          className="sc-fznZeY dYAVtX"
+        />
+        <div
+          className="sc-fzokOt dzHmKm"
+        >
+          <div
+            className="sc-fzqBZW bSjncH"
+          >
+            <h3
+              className="sc-fzqNJr bJBgbC"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoyAV jWpeml"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzoLag bkLbgZ"
+            >
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fzpjYC ktwqAX"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-fznKkj hfZVzU"
+      >
+        <div
+          className="sc-fznZeY dYAVtX"
+        />
+        <div
+          className="sc-fzokOt dzHmKm"
+        >
+          <div
+            className="sc-fzqBZW bSjncH"
+          >
+            <h3
+              className="sc-fzqNJr bJBgbC"
+            >
+              Chicken Chicken Chicken
+            </h3>
+            <p
+              className="sc-fzoyAV jWpeml"
+            >
+              with red chili sauce
+            </p>
+            <div
+              className="sc-fzoLag bkLbgZ"
+            >
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+              <div
+                className="sc-fzoXzr dPScCM"
+              />
+            </div>
+          </div>
+          <button
+            className="sc-fzpjYC ktwqAX"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-fzqARJ glpCqE"
+  >
+    <div
+      className="sc-fzqNqU gUdIlO"
+    />
+    <div
+      className="sc-fzoyTs ePRNYo"
+    >
+      <div
+        className="sc-fzoNJl bLwrMr"
+        onClick={[Function]}
+      >
+        Done
+      </div>
+      <div
+        className="sc-fzqAbL iRKaSy"
+      >
+        <img
+          alt=""
+          className="sc-fzoant dbwhGJ"
+          src="/static/images/cooking.png"
+        />
+        <p
+          className="sc-fzomME iAzPxp"
+        >
+          Good food is always cooking! Go ahead, order some yummy items from the menu.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 `;
